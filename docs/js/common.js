@@ -13,13 +13,19 @@
     },
     // Matchup rank vs position: 1–8 toughest (red), 9–24 middle (gold), 25–32 easiest (green).
     rank: { toughMax: 8, easyMin: 25 },
+    // Tier names and fallback colors. A color in the rankings file overrides these.
     tiers: {
-      S: 'Elite',
-      A: 'Strong Start',
-      B: 'Solid',
-      C: 'Flex',
-      D: 'Dart Throw'
+      S: { name: 'Elite', color: '#f47174' },
+      A: { name: 'Strong Start', color: '#f89a4b' },
+      B: { name: 'Solid', color: '#f9c440' },
+      C: { name: 'Flex', color: '#6fdc8c' },
+      D: { name: 'Bench Upside', color: '#34c46a' },
+      E: { name: 'Depth', color: '#35d0e0' },
+      F: { name: 'Deep Bench', color: '#5ba2f5' },
+      G: { name: 'Dart Throw', color: '#3b73e0' }
     },
+    // Panic meter (1–10): up to `calm` is green, up to `watch` is gold, above is red.
+    panic: { calm: 3, watch: 6 },
     positions: ['QB', 'RB', 'WR', 'TE', 'FLEX', 'K', 'DST'],
     positionNames: {
       QB: 'Quarterback', RB: 'Running Back', WR: 'Wide Receiver',
@@ -159,6 +165,77 @@
       ${photo(p, 'sil-photo')}</span>`;
   }
 
+  // ---- Rankings files ----
+  // Turns a rankings.json (ROS or weekly) into one shape the pages use:
+  //   { QB: { tiers: [{ tier, name, color, entries: [...] }], sources }, ... }
+  // Reads both layouts:
+  //   new: tiers[].ids + a top-level "players" map with each player's numbers
+  //   old: tiers[].players[] objects, plus a "games" list for weekly matchups
+  function normalizeRankings(data) {
+    const info = data.players || {};
+    const games = {};
+    (data.games || []).forEach(g => {
+      games[g.away] = { opp: g.home, home: false, ou: g.ou };
+      games[g.home] = { opp: g.away, home: true, ou: g.ou };
+    });
+    const positions = {};
+    Object.entries(data.positions || {}).forEach(([pos, block]) => {
+      let n = 0;
+      const tiers = (block.tiers || []).map(t => {
+        const letter = t.tier || t.label;
+        const raw = t.ids ? t.ids.map(id => Object.assign({ id }, info[id])) : (t.players || []);
+        const entries = raw.map(e => {
+          n += 1;
+          const p = player(e.id);
+          const m = games[p.team] || {};
+          return {
+            id: e.id, p, pos, rank: n, tier: letter,
+            fppg: e.fppg ?? null,
+            matchRank: e.oppRank ?? e.rosSched ?? e.oppDefRank ?? null,
+            opp: e.opp ?? m.opp ?? null,
+            home: e.home ?? m.home ?? null,
+            ou: e.ou ?? m.ou ?? null,
+            panic: e.panic ?? null,
+            flags: e.flags || [],
+            consensus: e.avg != null ? { avg: e.avg, best: e.best, worst: e.worst, sources: e.nSources } : null
+          };
+        });
+        return { tier: letter, name: tierName(letter, t), color: tierColor(letter, t), entries };
+      }).filter(t => t.entries.length);
+      if (tiers.length) positions[pos] = { tiers, sources: block.sources || null };
+    });
+    return positions;
+  }
+
+  function tierName(letter, t) {
+    return (t && (t.name || (t.tier && t.label))) || (CONFIG.tiers[letter] || {}).name || `Tier ${letter}`;
+  }
+
+  function tierColor(letter, t) {
+    return (t && t.color) || (CONFIG.tiers[letter] || {}).color || '#8a8a96';
+  }
+
+  function matchupLabel(e) {
+    return e && e.opp ? `${e.home ? 'vs' : '@'} ${e.opp}` : null;
+  }
+
+  // Rest-of-season file + a lookup of every ranked player, used by the player card on any page.
+  let rosPromise;
+  function rosContext() {
+    if (!rosPromise) {
+      rosPromise = loadJSON(paths.ros(FFK.site)).then(data => {
+        const positions = normalizeRankings(data);
+        const index = {};
+        Object.entries(positions).forEach(([pos, block]) => {
+          if (pos === 'FLEX') return;
+          block.tiers.forEach(t => t.entries.forEach(e => { if (!index[e.id]) index[e.id] = e; }));
+        });
+        return { data, positions, index };
+      });
+    }
+    return rosPromise;
+  }
+
   // ---- URL hash state (e.g. #qb-tiers, #game-2) ----
   function readHash() { return decodeURIComponent(location.hash.replace(/^#/, '')).toLowerCase(); }
   function writeHash(value) {
@@ -248,17 +325,19 @@
 
   // "Full PPR scoring · Last updated Oct 6, 2026" line shown under each page title.
   function metaLine(file) {
-    const parts = [`${FFK.site.scoring || 'PPR'} scoring`];
+    const parts = [`${(file && file.scoring) || FFK.site.scoring || 'PPR'} scoring`];
     if (file && file.updated) parts.push(`Last updated ${file.updated}`);
     return `<p class="page-meta">${parts.map(esc).join(' · ')}</p>`;
   }
 
-  // Sources list shown at the bottom of each page.
-  function sourcesLine(file) {
-    const list = (file && file.sources) || [];
-    const items = list.map(s => s.url
-      ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>${s.checked ? ` (checked ${esc(s.checked)})` : ''}`
-      : `${esc(s.label)}${s.checked ? ` (checked ${esc(s.checked)})` : ''}`);
+  // Sources list shown at the bottom of each page. Accepts plain names or { label, url, checked }.
+  function sourcesLine(file, list) {
+    list = list || (file && file.sources) || [];
+    const items = list.map(s => {
+      if (typeof s === 'string') return esc(s);
+      const checked = s.checked ? ` (checked ${esc(s.checked)})` : '';
+      return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>${checked}` : `${esc(s.label)}${checked}`;
+    });
     return `<p class="sources"><b>Sources:</b> ${items.length ? items.join(' · ') : 'none listed yet'}</p>`;
   }
 
@@ -273,7 +352,7 @@
   }
 
   window.FFK = {
-    CONFIG, paths, metaLine, sourcesLine, loadJSON, loadCore, pad2, esc, ordinal, num1, fppgClass, rankClass,
+    CONFIG, paths, metaLine, sourcesLine, normalizeRankings, tierName, tierColor, matchupLabel, rosContext, loadJSON, loadCore, pad2, esc, ordinal, num1, fppgClass, rankClass,
     player, team, fullName, shortName, initials, textOn, teamVars, photo, teamChip,
     avatar, silhouette, readHash, writeHash, renderShell, sampleBadge, showError
   };

@@ -1,295 +1,234 @@
 {
-  "_note": "SAMPLE DATA - replace before publishing",
-  "updated": "",
-  "sources": [],
+  "updated": "Oct 9, 2026",
+  "exported": "2026-10-09T20:28:34.731Z",
+  "sources": ["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","Flock Fantasy","CBS Sports"],
+  "mode": "weekly",
+  "season": 2026,
   "week": 5,
-  "eyebrow": "Week 5 · Updated Tuesday",
-  "title": "Week 5 Rankings",
-  "games": [
-    {"away": "BUF", "home": "LAR", "ou": 54.5},
-    {"away": "CIN", "home": "BAL", "ou": 47.5},
-    {"away": "NYG", "home": "WAS", "ou": 43.5},
-    {"away": "PHI", "home": "DEN", "ou": 42.0},
-    {"away": "KC", "home": "CAR", "ou": 44.0},
-    {"away": "DET", "home": "ARI", "ou": 54.5},
-    {"away": "LV", "home": "NE", "ou": 45.5},
-    {"away": "CHI", "home": "GB", "ou": 45.5},
-    {"away": "JAX", "home": "HOU", "ou": 44.5},
-    {"away": "PIT", "home": "CLE", "ou": 38.5},
-    {"away": "ATL", "home": "TB", "ou": 47.0},
-    {"away": "MIN", "home": "DAL", "ou": 48.5},
-    {"away": "IND", "home": "TEN", "ou": 41.5},
-    {"away": "SF", "home": "LAC", "ou": 45.0},
-    {"away": "MIA", "home": "NYJ", "ou": 43.0}
-  ],
+  "fromWeek": null,
+  "scoring": "Full PPR",
+  "generated": "2026-10-07",
+  "buildId": "20261007135911",
+  "oppRankGames": 4,
+  "sourceCount": 6,
+  "schedule": {"SEA":{"1":{"opp":"NE","home":true,"result":"W 13-10"},"2":{"opp":"ARI","home":false,"result":"W 31-7"},"3":{"opp":"WAS","home":false,"result":"L 31-33"},"4":{"opp":"LAC","home":true,"result":"W 30-23"}},"NE":{"1":{"opp":"SEA","home":false,"result":"L 10-13"},"2":{"opp":"PIT","home":true,"result":"W 20-3"},"3":{"opp":"JAX","home":false,"result":"L 6-35"},"4":{"opp":"BUF","home":false,"result":"W 29-26"}},"LAR":{"1":{"opp":"SF","home":true,"result":"L 7-27"},"2":{"opp":"NYG","home":true,"result":"W 28-6"},"3":{"opp":"DEN","home":false,"result":"L 26-30"},"4":{"opp":"PHI","home":false,"result":"W 24-20"}},"SF":{"1":{"opp":"LAR","home":false,"result":"W 27-7"},"2":{"opp":"MIA","home":true,"result":"W 35-13"},"3":{"opp":"ARI","home":true,"result":"W 36-30"},"4":{"opp":"DEN","home":true,"result":"W 24-14"}},"CIN":{"1":{"opp":"TB","home":true,"result":"W 33-27"},"2":{"opp":"HOU","home":false,"result":"W 20-6"},"3":{"opp":"PIT","home":false,"result":"L 27-30"},"4":{"opp":"JAX","home":true,"result":"L 17-22"}},"TB":{"1":{"opp":"CIN","home":false,"result":"L 27-33"},"2":{"opp":"CLE","home":true,"result":"L 19-23"},"3":{"opp":"MIN","home":true,"result":"L 16-23"},"4":{"opp":"GB","home":true,"result":"L 14-17"}},"DET":{"1":{"opp":"NO","home":true,"result":"W 31-30"},"2":{"opp":"BUF","home":false,"result":"L 31-41"},"3":{"opp":"NYJ","home":true,"result":"W 31-24"},"4":{"opp":"CAR","home":false,"result":"L 26-32"}},"NO":{"1":{"opp":"DET","home":false,"result":"L 30-31"},"2":{"opp":"BAL","home":false,"result":"W 24-17"},"3":{"opp":"LV","home":true,"result":"L 27-35"},"4":{"opp":"ATL","home":true,"result":"L 24-45"}},"TEN":{"1":{"opp":"NYJ","home":true,"result":"L 10-23"},"2":{"opp":"PHI","home":true,"result":"L 20-24"},"3":{"opp":"NYG","home":false,"result":"L 7-12"},"4":{"opp":"BAL","home":false,"result":"L 18-24"}},"NYJ":{"1":{"opp":"TEN","home":false,"result":"W 23-10"},"2":{"opp":"GB","home":true,"result":"L 17-20"},"3":{"opp":"DET","home":false,"result":"L 24-31"},"4":{"opp":"CHI","home":false,"result":"L 12-23"}},"IND":{"1":{"opp":"BAL","home":true,"result":"L 23-41"},"2":{"opp":"KC","home":false,"result":"L 30-33"},"3":{"opp":"HOU","home":true,"result":"W 19-17"},"4":{"opp":"WAS","home":false,"result":"W 30-13"}},"BAL":{"1":{"opp":"IND","home":false,"result":"W 41-23"},"2":{"opp":"NO","home":true,"result":"L 17-24"},"3":{"opp":"DAL","home":false,"result":"W 34-31"},"4":{"opp":"TEN","home":true,"result":"W 24-18"}},"PIT":{"1":{"opp":"ATL","home":true,"result":"W 20-13"},"2":{"opp":"NE","home":false,"result":"L 3-20"},"3":{"opp":"CIN","home":true,"result":"W 30-27"},"4":{"opp":"CLE","home":false,"result":"L 24-27"}},"ATL":{"1":{"opp":"PIT","home":false,"result":"L 13-20"},"2":{"opp":"CAR","home":true,"result":"L 3-34"},"3":{"opp":"GB","home":false,"result":"W 35-14"},"4":{"opp":"NO","home":false,"result":"W 45-24"}},"CAR":{"1":{"opp":"CHI","home":true,"result":"L 37-59"},"2":{"opp":"ATL","home":false,"result":"W 34-3"},"3":{"opp":"CLE","home":false,"result":"L 18-21"},"4":{"opp":"DET","home":true,"result":"W 32-26"}},"CHI":{"1":{"opp":"CAR","home":false,"result":"W 59-37"},"2":{"opp":"MIN","home":true,"result":"L 3-9"},"3":{"opp":"PHI","home":true,"result":"W 27-7"},"4":{"opp":"NYJ","home":true,"result":"W 23-12"}},"JAX":{"1":{"opp":"CLE","home":true,"result":"W 34-10"},"2":{"opp":"DEN","home":false,"result":"L 13-20"},"3":{"opp":"NE","home":true,"result":"W 35-6"},"4":{"opp":"CIN","home":false,"result":"W 22-17"}},"CLE":{"1":{"opp":"JAX","home":false,"result":"L 10-34"},"2":{"opp":"TB","home":false,"result":"W 23-19"},"3":{"opp":"CAR","home":true,"result":"W 21-18"},"4":{"opp":"PIT","home":true,"result":"W 27-24"}},"HOU":{"1":{"opp":"BUF","home":true,"result":"L 31-36"},"2":{"opp":"CIN","home":true,"result":"L 6-20"},"3":{"opp":"IND","home":false,"result":"L 17-19"},"4":{"opp":"DAL","home":true,"result":"L 30-34"}},"BUF":{"1":{"opp":"HOU","home":false,"result":"W 36-31"},"2":{"opp":"DET","home":true,"result":"W 41-31"},"3":{"opp":"LAC","home":true,"result":"W 24-16"},"4":{"opp":"NE","home":true,"result":"L 26-29"}},"LV":{"1":{"opp":"MIA","home":true,"result":"W 27-13"},"2":{"opp":"LAC","home":false,"result":"W 26-14"},"3":{"opp":"NO","home":false,"result":"W 35-27"},"4":{"opp":"KC","home":true,"result":"L 27-30"}},"MIA":{"1":{"opp":"LV","home":false,"result":"L 13-27"},"2":{"opp":"SF","home":false,"result":"L 13-35"},"3":{"opp":"KC","home":true,"result":"L 10-24"},"4":{"opp":"MIN","home":false,"result":"L 10-15"}},"MIN":{"1":{"opp":"GB","home":true,"result":"W 39-22"},"2":{"opp":"CHI","home":false,"result":"W 9-3"},"3":{"opp":"TB","home":false,"result":"W 23-16"},"4":{"opp":"MIA","home":true,"result":"W 15-10"}},"GB":{"1":{"opp":"MIN","home":false,"result":"L 22-39"},"2":{"opp":"NYJ","home":false,"result":"W 20-17"},"3":{"opp":"ATL","home":true,"result":"L 14-35"},"4":{"opp":"TB","home":false,"result":"W 17-14"}},"PHI":{"1":{"opp":"WAS","home":true,"result":"W 24-22"},"2":{"opp":"TEN","home":false,"result":"W 24-20"},"3":{"opp":"CHI","home":false,"result":"L 7-27"},"4":{"opp":"LAR","home":true,"result":"L 20-24"}},"WAS":{"1":{"opp":"PHI","home":false,"result":"L 22-24"},"2":{"opp":"DAL","home":false,"result":"L 20-37"},"3":{"opp":"SEA","home":true,"result":"W 33-31"},"4":{"opp":"IND","home":true,"result":"L 13-30"}},"LAC":{"1":{"opp":"ARI","home":true,"result":"L 14-26"},"2":{"opp":"LV","home":true,"result":"L 14-26"},"3":{"opp":"BUF","home":false,"result":"L 16-24"},"4":{"opp":"SEA","home":false,"result":"L 23-30"}},"ARI":{"1":{"opp":"LAC","home":false,"result":"W 26-14"},"2":{"opp":"SEA","home":true,"result":"L 7-31"},"3":{"opp":"SF","home":false,"result":"L 30-36"},"4":{"opp":"NYG","home":false,"result":"L 24-36"}},"NYG":{"1":{"opp":"DAL","home":true,"result":"W 28-20"},"2":{"opp":"LAR","home":false,"result":"L 6-28"},"3":{"opp":"TEN","home":true,"result":"W 12-7"},"4":{"opp":"ARI","home":true,"result":"W 36-24"}},"DAL":{"1":{"opp":"NYG","home":false,"result":"L 20-28"},"2":{"opp":"WAS","home":true,"result":"W 37-20"},"3":{"opp":"BAL","home":true,"result":"L 31-34"},"4":{"opp":"HOU","home":false,"result":"W 34-30"}},"KC":{"1":{"opp":"DEN","home":true,"result":"W 31-10"},"2":{"opp":"IND","home":true,"result":"W 33-30"},"3":{"opp":"MIA","home":false,"result":"W 24-10"},"4":{"opp":"LV","home":false,"result":"W 30-27"}},"DEN":{"1":{"opp":"KC","home":false,"result":"L 10-31"},"2":{"opp":"JAX","home":true,"result":"W 20-13"},"3":{"opp":"LAR","home":true,"result":"W 30-26"},"4":{"opp":"SF","home":false,"result":"L 14-24"}}},
+  "logThrough": 4,
+  "totalsProvider": "DraftKings",
+  "totalsFetched": "2026-10-07 13:56",
+  "teams": {"ARI":{"location":"Arizona","name":"Cardinals","color":"#a40227","alt":"#ffffff","g":4,"rzTrips":14,"rzTd":8,"fgDrives":16,"fgDrivesNoTd":7,"drives":44,"oppRzTrips":13,"oppRzTd":9,"rzTakeaways":0,"wk":{"1":{"tgt":37,"rushAtt":34,"rzTgt":7,"rzOpp":13,"air":283},"2":{"tgt":26,"rushAtt":17,"rzTgt":2,"rzOpp":5,"air":96},"3":{"tgt":50,"rushAtt":27,"rzTgt":11,"rzOpp":17,"air":322},"4":{"tgt":35,"rushAtt":26,"rzTgt":8,"rzOpp":12,"air":234}},"upcoming":[{"week":5,"opp":"DET","home":true,"indoor":true},{"week":6,"opp":"LAR","home":false,"indoor":false},{"week":7,"opp":"DEN","home":true,"indoor":true},{"week":8,"opp":"DAL","home":false,"indoor":true},{"week":9,"opp":"SEA","home":false,"indoor":false}]},"ATL":{"location":"Atlanta","name":"Falcons","color":"#a71930","alt":"#000000","g":4,"rzTrips":10,"rzTd":8,"fgDrives":17,"fgDrivesNoTd":8,"drives":47,"oppRzTrips":16,"oppRzTd":9,"rzTakeaways":1,"wk":{"1":{"tgt":21,"rushAtt":31,"rzTgt":0,"rzOpp":0,"air":75},"2":{"tgt":31,"rushAtt":32,"rzTgt":0,"rzOpp":0,"air":147},"3":{"tgt":23,"rushAtt":41,"rzTgt":1,"rzOpp":13,"air":162},"4":{"tgt":20,"rushAtt":35,"rzTgt":4,"rzOpp":14,"air":130}},"upcoming":[{"week":5,"opp":"BAL","home":true,"indoor":true},{"week":6,"opp":"CHI","home":true,"indoor":true},{"week":7,"opp":"SF","home":true,"indoor":true},{"week":8,"opp":"TB","home":false,"indoor":false},{"week":9,"opp":"CIN","home":true,"indoor":true}]},"BAL":{"location":"Baltimore","name":"Ravens","color":"#29126f","alt":"#000000","g":4,"rzTrips":15,"rzTd":11,"fgDrives":19,"fgDrivesNoTd":7,"drives":44,"oppRzTrips":14,"oppRzTd":9,"rzTakeaways":0,"wk":{"1":{"tgt":24,"rushAtt":37,"rzTgt":4,"rzOpp":11,"air":270},"2":{"tgt":29,"rushAtt":22,"rzTgt":1,"rzOpp":5,"air":310},"3":{"tgt":20,"rushAtt":38,"rzTgt":5,"rzOpp":17,"air":181},"4":{"tgt":29,"rushAtt":30,"rzTgt":4,"rzOpp":7,"air":205}},"upcoming":[{"week":5,"opp":"ATL","home":false,"indoor":true},{"week":6,"opp":"CLE","home":false,"indoor":false},{"week":7,"opp":"CIN","home":true,"indoor":false},{"week":8,"opp":"BUF","home":false,"indoor":false},{"week":9,"opp":"JAX","home":true,"indoor":false}]},"BUF":{"location":"Buffalo","name":"Bills","color":"#00338d","alt":"#d50a0a","g":4,"rzTrips":16,"rzTd":11,"fgDrives":19,"fgDrivesNoTd":7,"drives":43,"oppRzTrips":16,"oppRzTd":11,"rzTakeaways":1,"wk":{"1":{"tgt":28,"rushAtt":21,"rzTgt":4,"rzOpp":6,"air":359},"2":{"tgt":28,"rushAtt":36,"rzTgt":4,"rzOpp":11,"air":248},"3":{"tgt":26,"rushAtt":33,"rzTgt":3,"rzOpp":9,"air":266},"4":{"tgt":30,"rushAtt":20,"rzTgt":3,"rzOpp":9,"air":261}},"upcoming":[{"week":5,"opp":"LAR","home":false,"indoor":false},{"week":6,"opp":"LV","home":false,"indoor":true},{"week":7,"bye":true},{"week":8,"opp":"BAL","home":true,"indoor":false},{"week":9,"opp":"MIN","home":false,"indoor":true}]},"CAR":{"location":"Carolina","name":"Panthers","color":"#0085ca","alt":"#000000","g":4,"rzTrips":17,"rzTd":11,"fgDrives":23,"fgDrivesNoTd":12,"drives":46,"oppRzTrips":11,"oppRzTd":8,"rzTakeaways":0,"wk":{"1":{"tgt":34,"rushAtt":22,"rzTgt":5,"rzOpp":10,"air":336},"2":{"tgt":32,"rushAtt":22,"rzTgt":13,"rzOpp":18,"air":291},"3":{"tgt":42,"rushAtt":23,"rzTgt":2,"rzOpp":2,"air":407},"4":{"tgt":39,"rushAtt":28,"rzTgt":4,"rzOpp":7,"air":315}},"upcoming":[{"week":5,"bye":true},{"week":6,"opp":"PHI","home":false,"indoor":false},{"week":7,"opp":"TB","home":true,"indoor":false},{"week":8,"opp":"GB","home":false,"indoor":false},{"week":9,"opp":"DEN","home":true,"indoor":false}]},"CHI":{"location":"Chicago","name":"Bears","color":"#0b1c3a","alt":"#e64100","g":4,"rzTrips":19,"rzTd":8,"fgDrives":24,"fgDrivesNoTd":13,"drives":42,"oppRzTrips":9,"oppRzTd":5,"rzTakeaways":2,"wk":{"1":{"tgt":26,"rushAtt":39,"rzTgt":3,"rzOpp":13,"air":282},"2":{"tgt":31,"rushAtt":31,"rzTgt":7,"rzOpp":12,"air":165},"3":{"tgt":34,"rushAtt":35,"rzTgt":7,"rzOpp":19,"air":209},"4":{"tgt":31,"rushAtt":54,"rzTgt":3,"rzOpp":22,"air":187}},"upcoming":[{"week":5,"opp":"GB","home":false,"indoor":false},{"week":6,"opp":"ATL","home":false,"indoor":true},{"week":7,"opp":"NE","home":true,"indoor":false},{"week":8,"opp":"SEA","home":false,"indoor":false},{"week":9,"opp":"TB","home":true,"indoor":false}]},"CIN":{"location":"Cincinnati","name":"Bengals","color":"#fb4f14","alt":"#000000","g":4,"rzTrips":12,"rzTd":6,"fgDrives":16,"fgDrivesNoTd":8,"drives":39,"oppRzTrips":13,"oppRzTd":4,"rzTakeaways":1,"wk":{"1":{"tgt":34,"rushAtt":27,"rzTgt":6,"rzOpp":15,"air":226},"2":{"tgt":31,"rushAtt":23,"rzTgt":1,"rzOpp":1,"air":173},"3":{"tgt":37,"rushAtt":18,"rzTgt":2,"rzOpp":3,"air":259},"4":{"tgt":53,"rushAtt":15,"rzTgt":6,"rzOpp":10,"air":469}},"upcoming":[{"week":5,"opp":"MIA","home":false,"indoor":false},{"week":6,"bye":true},{"week":7,"opp":"BAL","home":false,"indoor":false},{"week":8,"opp":"TEN","home":true,"indoor":false},{"week":9,"opp":"ATL","home":false,"indoor":true}]},"CLE":{"location":"Cleveland","name":"Browns","color":"#472a08","alt":"#ff3c00","g":4,"rzTrips":10,"rzTd":5,"fgDrives":15,"fgDrivesNoTd":9,"drives":46,"oppRzTrips":12,"oppRzTd":6,"rzTakeaways":0,"wk":{"1":{"tgt":22,"rushAtt":22,"rzTgt":1,"rzOpp":4,"air":228},"2":{"tgt":30,"rushAtt":23,"rzTgt":3,"rzOpp":4,"air":108},"3":{"tgt":30,"rushAtt":30,"rzTgt":4,"rzOpp":10,"air":162},"4":{"tgt":33,"rushAtt":27,"rzTgt":4,"rzOpp":7,"air":251}},"upcoming":[{"week":5,"opp":"NYJ","home":false,"indoor":false},{"week":6,"opp":"BAL","home":true,"indoor":false},{"week":7,"opp":"TEN","home":false,"indoor":false},{"week":8,"opp":"PIT","home":false,"indoor":false},{"week":9,"opp":"NO","home":false,"indoor":true}]},"DAL":{"location":"Dallas","name":"Cowboys","color":"#002a5c","alt":"#b0b7bc","g":4,"rzTrips":16,"rzTd":13,"fgDrives":21,"fgDrivesNoTd":7,"drives":36,"oppRzTrips":15,"oppRzTd":11,"rzTakeaways":0,"wk":{"1":{"tgt":30,"rushAtt":18,"rzTgt":5,"rzOpp":9,"air":242},"2":{"tgt":31,"rushAtt":21,"rzTgt":5,"rzOpp":10,"air":244},"3":{"tgt":40,"rushAtt":30,"rzTgt":6,"rzOpp":14,"air":272},"4":{"tgt":43,"rushAtt":25,"rzTgt":3,"rzOpp":11,"air":271}},"upcoming":[{"week":5,"opp":"TB","home":true,"indoor":true},{"week":6,"opp":"GB","home":false,"indoor":false},{"week":7,"opp":"PHI","home":false,"indoor":false},{"week":8,"opp":"ARI","home":true,"indoor":true},{"week":9,"opp":"IND","home":false,"indoor":true}]},"DEN":{"location":"Denver","name":"Broncos","color":"#0a2343","alt":"#fc4c02","g":4,"rzTrips":11,"rzTd":7,"fgDrives":14,"fgDrivesNoTd":7,"drives":40,"oppRzTrips":14,"oppRzTd":7,"rzTakeaways":1,"wk":{"1":{"tgt":27,"rushAtt":15,"rzTgt":2,"rzOpp":3,"air":104},"2":{"tgt":29,"rushAtt":28,"rzTgt":5,"rzOpp":13,"air":270},"3":{"tgt":31,"rushAtt":25,"rzTgt":7,"rzOpp":12,"air":190},"4":{"tgt":38,"rushAtt":22,"rzTgt":1,"rzOpp":1,"air":187}},"upcoming":[{"week":5,"opp":"LAC","home":false,"indoor":false},{"week":6,"opp":"SEA","home":true,"indoor":false},{"week":7,"opp":"ARI","home":false,"indoor":true},{"week":8,"opp":"KC","home":true,"indoor":false},{"week":9,"opp":"CAR","home":false,"indoor":false}]},"DET":{"location":"Detroit","name":"Lions","color":"#0076b6","alt":"#bbbbbb","g":4,"rzTrips":18,"rzTd":13,"fgDrives":22,"fgDrivesNoTd":8,"drives":42,"oppRzTrips":17,"oppRzTd":14,"rzTakeaways":0,"wk":{"1":{"tgt":39,"rushAtt":33,"rzTgt":7,"rzOpp":16,"air":207},"2":{"tgt":38,"rushAtt":20,"rzTgt":6,"rzOpp":10,"air":337},"3":{"tgt":31,"rushAtt":30,"rzTgt":8,"rzOpp":15,"air":189},"4":{"tgt":51,"rushAtt":15,"rzTgt":11,"rzOpp":14,"air":491}},"upcoming":[{"week":5,"opp":"ARI","home":false,"indoor":true},{"week":6,"bye":true},{"week":7,"opp":"GB","home":true,"indoor":true},{"week":8,"opp":"MIN","home":true,"indoor":true},{"week":9,"opp":"MIA","home":false,"indoor":false}]},"GB":{"location":"Green Bay","name":"Packers","color":"#204e32","alt":"#ffb612","g":4,"rzTrips":15,"rzTd":7,"fgDrives":18,"fgDrivesNoTd":11,"drives":44,"oppRzTrips":14,"oppRzTd":12,"rzTakeaways":0,"wk":{"1":{"tgt":40,"rushAtt":21,"rzTgt":5,"rzOpp":8,"air":454},"2":{"tgt":29,"rushAtt":18,"rzTgt":3,"rzOpp":8,"air":216},"3":{"tgt":51,"rushAtt":9,"rzTgt":8,"rzOpp":11,"air":406},"4":{"tgt":30,"rushAtt":25,"rzTgt":7,"rzOpp":15,"air":215}},"upcoming":[{"week":5,"opp":"CHI","home":true,"indoor":false},{"week":6,"opp":"DAL","home":true,"indoor":false},{"week":7,"opp":"DET","home":false,"indoor":true},{"week":8,"opp":"CAR","home":true,"indoor":false},{"week":9,"opp":"NE","home":false,"indoor":false}]},"HOU":{"location":"Houston","name":"Texans","color":"#021018","alt":"#eb0028","g":4,"rzTrips":14,"rzTd":8,"fgDrives":17,"fgDrivesNoTd":8,"drives":45,"oppRzTrips":11,"oppRzTd":7,"rzTakeaways":0,"wk":{"1":{"tgt":37,"rushAtt":32,"rzTgt":4,"rzOpp":9,"air":295},"2":{"tgt":50,"rushAtt":18,"rzTgt":3,"rzOpp":5,"air":459},"3":{"tgt":25,"rushAtt":21,"rzTgt":4,"rzOpp":7,"air":278},"4":{"tgt":26,"rushAtt":19,"rzTgt":2,"rzOpp":4,"air":324}},"upcoming":[{"week":5,"opp":"TEN","home":false,"indoor":false},{"week":6,"opp":"JAX","home":false,"indoor":false},{"week":7,"opp":"NYG","home":true,"indoor":true},{"week":8,"bye":true},{"week":9,"opp":"LAC","home":false,"indoor":false}]},"IND":{"location":"Indianapolis","name":"Colts","color":"#003b75","alt":"#ffffff","g":4,"rzTrips":12,"rzTd":9,"fgDrives":19,"fgDrivesNoTd":9,"drives":45,"oppRzTrips":14,"oppRzTd":8,"rzTakeaways":0,"wk":{"1":{"tgt":29,"rushAtt":20,"rzTgt":3,"rzOpp":8,"air":189},"2":{"tgt":30,"rushAtt":32,"rzTgt":4,"rzOpp":9,"air":158},"3":{"tgt":35,"rushAtt":31,"rzTgt":5,"rzOpp":8,"air":276},"4":{"tgt":29,"rushAtt":30,"rzTgt":2,"rzOpp":8,"air":130}},"upcoming":[{"week":5,"opp":"PIT","home":false,"indoor":false},{"week":6,"opp":"TEN","home":true,"indoor":true},{"week":7,"opp":"MIN","home":false,"indoor":true},{"week":8,"opp":"JAX","home":false,"indoor":false},{"week":9,"opp":"DAL","home":true,"indoor":true}]},"JAX":{"location":"Jacksonville","name":"Jaguars","color":"#007487","alt":"#d7a22a","g":4,"rzTrips":11,"rzTd":9,"fgDrives":17,"fgDrivesNoTd":5,"drives":37,"oppRzTrips":14,"oppRzTd":4,"rzTakeaways":3,"wk":{"1":{"tgt":20,"rushAtt":31,"rzTgt":2,"rzOpp":3,"air":220},"2":{"tgt":29,"rushAtt":24,"rzTgt":3,"rzOpp":6,"air":290},"3":{"tgt":27,"rushAtt":30,"rzTgt":8,"rzOpp":16,"air":168},"4":{"tgt":23,"rushAtt":27,"rzTgt":3,"rzOpp":7,"air":162}},"upcoming":[{"week":5,"opp":"PHI","home":true,"indoor":false},{"week":6,"opp":"HOU","home":true,"indoor":false},{"week":7,"bye":true},{"week":8,"opp":"IND","home":true,"indoor":false},{"week":9,"opp":"BAL","home":false,"indoor":false}]},"KC":{"location":"Kansas City","name":"Chiefs","color":"#e31837","alt":"#ffb612","g":4,"rzTrips":19,"rzTd":12,"fgDrives":22,"fgDrivesNoTd":9,"drives":44,"oppRzTrips":9,"oppRzTd":4,"rzTakeaways":0,"wk":{"1":{"tgt":25,"rushAtt":38,"rzTgt":3,"rzOpp":11,"air":117},"2":{"tgt":43,"rushAtt":28,"rzTgt":8,"rzOpp":13,"air":247},"3":{"tgt":23,"rushAtt":25,"rzTgt":7,"rzOpp":14,"air":161},"4":{"tgt":27,"rushAtt":24,"rzTgt":3,"rzOpp":7,"air":319}},"upcoming":[{"week":5,"bye":true},{"week":6,"opp":"LAC","home":true,"indoor":false},{"week":7,"opp":"SEA","home":false,"indoor":false},{"week":8,"opp":"DEN","home":false,"indoor":false},{"week":9,"opp":"NYJ","home":true,"indoor":false}]},"LV":{"location":"Las Vegas","name":"Raiders","color":"#000000","alt":"#a5acaf","g":4,"rzTrips":15,"rzTd":8,"fgDrives":21,"fgDrivesNoTd":11,"drives":46,"oppRzTrips":13,"oppRzTd":10,"rzTakeaways":1,"wk":{"1":{"tgt":29,"rushAtt":37,"rzTgt":8,"rzOpp":12,"air":226},"2":{"tgt":29,"rushAtt":29,"rzTgt":3,"rzOpp":10,"air":283},"3":{"tgt":31,"rushAtt":27,"rzTgt":7,"rzOpp":13,"air":264},"4":{"tgt":48,"rushAtt":26,"rzTgt":2,"rzOpp":4,"air":437}},"upcoming":[{"week":5,"opp":"NE","home":false,"indoor":false},{"week":6,"opp":"BUF","home":true,"indoor":true},{"week":7,"opp":"LAR","home":true,"indoor":true},{"week":8,"opp":"NYJ","home":false,"indoor":false},{"week":9,"opp":"SF","home":false,"indoor":false}]},"LAC":{"location":"Los Angeles","name":"Chargers","color":"#0080c6","alt":"#ffc20e","g":4,"rzTrips":12,"rzTd":7,"fgDrives":17,"fgDrivesNoTd":10,"drives":47,"oppRzTrips":16,"oppRzTd":9,"rzTakeaways":0,"wk":{"1":{"tgt":27,"rushAtt":21,"rzTgt":3,"rzOpp":10,"air":273},"2":{"tgt":26,"rushAtt":32,"rzTgt":1,"rzOpp":4,"air":261},"3":{"tgt":33,"rushAtt":28,"rzTgt":6,"rzOpp":12,"air":292},"4":{"tgt":31,"rushAtt":32,"rzTgt":3,"rzOpp":7,"air":228}},"upcoming":[{"week":5,"opp":"DEN","home":true,"indoor":false},{"week":6,"opp":"KC","home":false,"indoor":false},{"week":7,"bye":true},{"week":8,"opp":"LAR","home":false,"indoor":false},{"week":9,"opp":"HOU","home":true,"indoor":false}]},"LAR":{"location":"Los Angeles","name":"Rams","color":"#003594","alt":"#ffd100","g":4,"rzTrips":15,"rzTd":8,"fgDrives":20,"fgDrivesNoTd":12,"drives":46,"oppRzTrips":12,"oppRzTd":7,"rzTakeaways":1,"wk":{"1":{"tgt":27,"rushAtt":29,"rzTgt":2,"rzOpp":9,"air":259},"2":{"tgt":30,"rushAtt":28,"rzTgt":4,"rzOpp":6,"air":331},"3":{"tgt":49,"rushAtt":23,"rzTgt":5,"rzOpp":7,"air":518},"4":{"tgt":50,"rushAtt":25,"rzTgt":3,"rzOpp":10,"air":458}},"upcoming":[{"week":5,"opp":"BUF","home":true,"indoor":false},{"week":6,"opp":"ARI","home":true,"indoor":false},{"week":7,"opp":"LV","home":false,"indoor":true},{"week":8,"opp":"LAC","home":true,"indoor":false},{"week":9,"opp":"WAS","home":false,"indoor":false}]},"MIA":{"location":"Miami","name":"Dolphins","color":"#008e97","alt":"#fc4c02","g":4,"rzTrips":9,"rzTd":3,"fgDrives":10,"fgDrivesNoTd":7,"drives":37,"oppRzTrips":17,"oppRzTd":11,"rzTakeaways":0,"wk":{"1":{"tgt":27,"rushAtt":18,"rzTgt":0,"rzOpp":4,"air":309},"2":{"tgt":23,"rushAtt":28,"rzTgt":2,"rzOpp":9,"air":169},"3":{"tgt":36,"rushAtt":31,"rzTgt":3,"rzOpp":6,"air":379},"4":{"tgt":17,"rushAtt":18,"rzTgt":1,"rzOpp":4,"air":155}},"upcoming":[{"week":5,"opp":"CIN","home":true,"indoor":false},{"week":6,"bye":true},{"week":7,"opp":"NYJ","home":false,"indoor":false},{"week":8,"opp":"NE","home":true,"indoor":false},{"week":9,"opp":"DET","home":true,"indoor":false}]},"MIN":{"location":"Minnesota","name":"Vikings","color":"#4f2683","alt":"#ffc62f","g":4,"rzTrips":8,"rzTd":4,"fgDrives":13,"fgDrivesNoTd":9,"drives":45,"oppRzTrips":11,"oppRzTd":2,"rzTakeaways":1,"wk":{"1":{"tgt":23,"rushAtt":34,"rzTgt":4,"rzOpp":12,"air":172},"2":{"tgt":19,"rushAtt":28,"rzTgt":1,"rzOpp":1,"air":162},"3":{"tgt":25,"rushAtt":23,"rzTgt":0,"rzOpp":0,"air":232},"4":{"tgt":33,"rushAtt":31,"rzTgt":4,"rzOpp":9,"air":161}},"upcoming":[{"week":5,"opp":"NO","home":false,"indoor":true},{"week":6,"bye":true},{"week":7,"opp":"IND","home":true,"indoor":true},{"week":8,"opp":"DET","home":false,"indoor":true},{"week":9,"opp":"BUF","home":true,"indoor":true}]},"NE":{"location":"New England","name":"Patriots","color":"#002a5c","alt":"#c60c30","g":4,"rzTrips":9,"rzTd":4,"fgDrives":15,"fgDrivesNoTd":10,"drives":41,"oppRzTrips":12,"oppRzTd":7,"rzTakeaways":1,"wk":{"1":{"tgt":31,"rushAtt":31,"rzTgt":2,"rzOpp":2,"air":205},"2":{"tgt":21,"rushAtt":28,"rzTgt":1,"rzOpp":1,"air":193},"3":{"tgt":30,"rushAtt":26,"rzTgt":5,"rzOpp":9,"air":347},"4":{"tgt":36,"rushAtt":35,"rzTgt":5,"rzOpp":8,"air":361}},"upcoming":[{"week":5,"opp":"LV","home":true,"indoor":false},{"week":6,"opp":"NYJ","home":true,"indoor":false},{"week":7,"opp":"CHI","home":false,"indoor":false},{"week":8,"opp":"MIA","home":false,"indoor":false},{"week":9,"opp":"GB","home":true,"indoor":false}]},"NO":{"location":"New Orleans","name":"Saints","color":"#d3bc8d","alt":"#000000","g":4,"rzTrips":15,"rzTd":12,"fgDrives":19,"fgDrivesNoTd":6,"drives":44,"oppRzTrips":18,"oppRzTd":12,"rzTakeaways":0,"wk":{"1":{"tgt":52,"rushAtt":25,"rzTgt":6,"rzOpp":9,"air":465},"2":{"tgt":32,"rushAtt":27,"rzTgt":3,"rzOpp":7,"air":192},"3":{"tgt":40,"rushAtt":28,"rzTgt":8,"rzOpp":12,"air":308},"4":{"tgt":47,"rushAtt":19,"rzTgt":7,"rzOpp":11,"air":471}},"upcoming":[{"week":5,"opp":"MIN","home":true,"indoor":true},{"week":6,"opp":"NYG","home":false,"indoor":false},{"week":7,"opp":"PIT","home":true,"indoor":false},{"week":8,"bye":true},{"week":9,"opp":"CLE","home":true,"indoor":true}]},"NYG":{"location":"New York","name":"Giants","color":"#003c7f","alt":"#c9243f","g":4,"rzTrips":11,"rzTd":6,"fgDrives":17,"fgDrivesNoTd":10,"drives":40,"oppRzTrips":12,"oppRzTd":9,"rzTakeaways":2,"wk":{"1":{"tgt":29,"rushAtt":37,"rzTgt":6,"rzOpp":11,"air":245},"2":{"tgt":32,"rushAtt":21,"rzTgt":1,"rzOpp":4,"air":341},"3":{"tgt":21,"rushAtt":33,"rzTgt":1,"rzOpp":6,"air":119},"4":{"tgt":29,"rushAtt":28,"rzTgt":4,"rzOpp":9,"air":332}},"upcoming":[{"week":5,"opp":"WAS","home":false,"indoor":false},{"week":6,"opp":"NO","home":true,"indoor":false},{"week":7,"opp":"HOU","home":false,"indoor":true},{"week":8,"bye":true},{"week":9,"opp":"PHI","home":false,"indoor":false}]},"NYJ":{"location":"New York","name":"Jets","color":"#115740","alt":"#ffffff","g":4,"rzTrips":11,"rzTd":6,"fgDrives":14,"fgDrivesNoTd":7,"drives":40,"oppRzTrips":17,"oppRzTd":9,"rzTakeaways":0,"wk":{"1":{"tgt":23,"rushAtt":39,"rzTgt":1,"rzOpp":7,"air":156},"2":{"tgt":36,"rushAtt":27,"rzTgt":3,"rzOpp":5,"air":255},"3":{"tgt":36,"rushAtt":19,"rzTgt":2,"rzOpp":6,"air":267},"4":{"tgt":15,"rushAtt":14,"rzTgt":1,"rzOpp":3,"air":93}},"upcoming":[{"week":5,"opp":"CLE","home":true,"indoor":false},{"week":6,"opp":"NE","home":false,"indoor":false},{"week":7,"opp":"MIA","home":true,"indoor":false},{"week":8,"opp":"LV","home":true,"indoor":false},{"week":9,"opp":"KC","home":false,"indoor":false}]},"PHI":{"location":"Philadelphia","name":"Eagles","color":"#06424d","alt":"#000000","g":4,"rzTrips":13,"rzTd":8,"fgDrives":15,"fgDrivesNoTd":7,"drives":42,"oppRzTrips":17,"oppRzTd":10,"rzTakeaways":0,"wk":{"1":{"tgt":22,"rushAtt":25,"rzTgt":3,"rzOpp":6,"air":215},"2":{"tgt":35,"rushAtt":32,"rzTgt":4,"rzOpp":10,"air":303},"3":{"tgt":25,"rushAtt":19,"rzTgt":4,"rzOpp":9,"air":159},"4":{"tgt":25,"rushAtt":27,"rzTgt":3,"rzOpp":11,"air":204}},"upcoming":[{"week":5,"opp":"JAX","home":false,"indoor":false},{"week":6,"opp":"CAR","home":true,"indoor":false},{"week":7,"opp":"DAL","home":true,"indoor":false},{"week":8,"opp":"WAS","home":false,"indoor":false},{"week":9,"opp":"NYG","home":true,"indoor":false}]},"PIT":{"location":"Pittsburgh","name":"Steelers","color":"#000000","alt":"#ffb612","g":4,"rzTrips":9,"rzTd":4,"fgDrives":16,"fgDrivesNoTd":10,"drives":47,"oppRzTrips":5,"oppRzTd":3,"rzTakeaways":0,"wk":{"1":{"tgt":37,"rushAtt":21,"rzTgt":4,"rzOpp":5,"air":388},"2":{"tgt":37,"rushAtt":23,"rzTgt":1,"rzOpp":1,"air":196},"3":{"tgt":31,"rushAtt":23,"rzTgt":3,"rzOpp":7,"air":314},"4":{"tgt":39,"rushAtt":19,"rzTgt":7,"rzOpp":9,"air":411}},"upcoming":[{"week":5,"opp":"IND","home":true,"indoor":false},{"week":6,"opp":"TB","home":false,"indoor":false},{"week":7,"opp":"NO","home":false,"indoor":false},{"week":8,"opp":"CLE","home":true,"indoor":false},{"week":9,"bye":true}]},"SF":{"location":"San Francisco","name":"49ers","color":"#aa0000","alt":"#b3995d","g":4,"rzTrips":13,"rzTd":11,"fgDrives":16,"fgDrivesNoTd":3,"drives":38,"oppRzTrips":11,"oppRzTd":5,"rzTakeaways":0,"wk":{"1":{"tgt":33,"rushAtt":30,"rzTgt":8,"rzOpp":10,"air":149},"2":{"tgt":21,"rushAtt":27,"rzTgt":4,"rzOpp":11,"air":181},"3":{"tgt":26,"rushAtt":23,"rzTgt":3,"rzOpp":6,"air":281},"4":{"tgt":29,"rushAtt":35,"rzTgt":4,"rzOpp":13,"air":255}},"upcoming":[{"week":5,"opp":"SEA","home":false,"indoor":false},{"week":6,"opp":"WAS","home":true,"indoor":false},{"week":7,"opp":"ATL","home":false,"indoor":true},{"week":8,"bye":true},{"week":9,"opp":"LV","home":true,"indoor":false}]},"SEA":{"location":"Seattle","name":"Seahawks","color":"#002a5c","alt":"#69be28","g":4,"rzTrips":16,"rzTd":9,"fgDrives":18,"fgDrivesNoTd":7,"drives":47,"oppRzTrips":9,"oppRzTd":6,"rzTakeaways":1,"wk":{"1":{"tgt":24,"rushAtt":22,"rzTgt":3,"rzOpp":6,"air":154},"2":{"tgt":26,"rushAtt":40,"rzTgt":6,"rzOpp":21,"air":227},"3":{"tgt":45,"rushAtt":18,"rzTgt":8,"rzOpp":11,"air":290},"4":{"tgt":20,"rushAtt":33,"rzTgt":2,"rzOpp":7,"air":158}},"upcoming":[{"week":5,"opp":"SF","home":true,"indoor":false},{"week":6,"opp":"DEN","home":false,"indoor":false},{"week":7,"opp":"KC","home":true,"indoor":false},{"week":8,"opp":"CHI","home":true,"indoor":false},{"week":9,"opp":"ARI","home":true,"indoor":false}]},"TB":{"location":"Tampa Bay","name":"Buccaneers","color":"#bd1c36","alt":"#3e3a35","g":4,"rzTrips":12,"rzTd":5,"fgDrives":14,"fgDrivesNoTd":9,"drives":44,"oppRzTrips":11,"oppRzTd":5,"rzTakeaways":1,"wk":{"1":{"tgt":27,"rushAtt":20,"rzTgt":2,"rzOpp":6,"air":132},"2":{"tgt":33,"rushAtt":25,"rzTgt":7,"rzOpp":11,"air":413},"3":{"tgt":35,"rushAtt":21,"rzTgt":3,"rzOpp":3,"air":336},"4":{"tgt":26,"rushAtt":31,"rzTgt":2,"rzOpp":8,"air":100}},"upcoming":[{"week":5,"opp":"DAL","home":false,"indoor":true},{"week":6,"opp":"PIT","home":true,"indoor":false},{"week":7,"opp":"CAR","home":false,"indoor":false},{"week":8,"opp":"ATL","home":true,"indoor":false},{"week":9,"opp":"CHI","home":false,"indoor":false}]},"TEN":{"location":"Tennessee","name":"Titans","color":"#4495d2","alt":"#001532","g":4,"rzTrips":12,"rzTd":6,"fgDrives":13,"fgDrivesNoTd":7,"drives":38,"oppRzTrips":12,"oppRzTd":8,"rzTakeaways":1,"wk":{"1":{"tgt":28,"rushAtt":14,"rzTgt":3,"rzOpp":3,"air":164},"2":{"tgt":17,"rushAtt":29,"rzTgt":2,"rzOpp":13,"air":113},"3":{"tgt":35,"rushAtt":21,"rzTgt":7,"rzOpp":10,"air":227},"4":{"tgt":28,"rushAtt":26,"rzTgt":1,"rzOpp":11,"air":219}},"upcoming":[{"week":5,"opp":"HOU","home":true,"indoor":false},{"week":6,"opp":"IND","home":false,"indoor":true},{"week":7,"opp":"CLE","home":true,"indoor":false},{"week":8,"opp":"CIN","home":false,"indoor":false},{"week":9,"bye":true}]},"WAS":{"location":"Washington","name":"Commanders","color":"#5a1414","alt":"#ffb612","g":4,"rzTrips":11,"rzTd":6,"fgDrives":15,"fgDrivesNoTd":7,"drives":46,"oppRzTrips":15,"oppRzTd":12,"rzTakeaways":0,"wk":{"1":{"tgt":29,"rushAtt":32,"rzTgt":6,"rzOpp":13,"air":256},"2":{"tgt":34,"rushAtt":32,"rzTgt":4,"rzOpp":9,"air":361},"3":{"tgt":30,"rushAtt":32,"rzTgt":2,"rzOpp":5,"air":241},"4":{"tgt":35,"rushAtt":22,"rzTgt":1,"rzOpp":3,"air":425}},"upcoming":[{"week":5,"opp":"NYG","home":true,"indoor":false},{"week":6,"opp":"SF","home":false,"indoor":false},{"week":7,"bye":true},{"week":8,"opp":"PHI","home":true,"indoor":false},{"week":9,"opp":"LAR","home":true,"indoor":false}]}},
+  "oppRanks": {"QB":{"MIN":1,"SEA":2,"PIT":3,"KC":4,"NYJ":5,"TEN":6,"SF":7,"NE":8,"TB":9,"CHI":10,"JAX":11,"GB":12,"LAR":13,"CIN":14,"NO":15,"NYG":16,"BAL":17,"LV":18,"LAC":19,"ATL":20,"DEN":21,"MIA":22,"PHI":23,"CLE":24,"HOU":25,"CAR":26,"IND":27,"ARI":28,"BUF":29,"WAS":30,"DAL":31,"DET":32},"RB":{"MIN":1,"ARI":2,"LAR":3,"WAS":4,"CLE":5,"ATL":6,"CHI":7,"HOU":8,"JAX":9,"TB":10,"BAL":11,"CIN":12,"KC":13,"TEN":14,"NE":15,"LV":16,"NYG":17,"SEA":18,"DET":19,"DAL":20,"PHI":21,"LAC":22,"IND":23,"PIT":24,"SF":25,"DEN":26,"BUF":27,"MIA":28,"NYJ":29,"CAR":30,"GB":31,"NO":32},"WR":{"KC":1,"SEA":2,"MIA":3,"CHI":4,"TB":5,"LV":6,"SF":7,"NYJ":8,"DEN":9,"CAR":10,"PIT":11,"CIN":12,"NO":13,"MIN":14,"LAR":15,"NYG":16,"GB":17,"LAC":18,"TEN":19,"NE":20,"IND":21,"DAL":22,"PHI":23,"JAX":24,"CLE":25,"BAL":26,"ARI":27,"ATL":28,"WAS":29,"BUF":30,"DET":31,"HOU":32},"TE":{"NE":1,"LAR":2,"CHI":3,"MIN":4,"PHI":5,"SF":6,"JAX":7,"LAC":8,"PIT":9,"NYJ":10,"TEN":11,"BAL":12,"GB":13,"HOU":14,"SEA":15,"BUF":16,"IND":17,"NYG":18,"DAL":19,"DEN":20,"ATL":21,"CAR":22,"CLE":23,"LV":24,"NO":25,"TB":26,"CIN":27,"WAS":28,"MIA":29,"ARI":30,"KC":31,"DET":32},"K":{"NYG":1,"LV":2,"DET":3,"CHI":4,"NE":5,"ATL":6,"GB":7,"JAX":8,"BUF":9,"PHI":10,"ARI":11,"LAR":12,"SEA":13,"SF":14,"NYJ":15,"MIN":16,"BAL":17,"NO":18,"LAC":19,"DEN":20,"KC":21,"MIA":22,"PIT":23,"DAL":24,"TEN":25,"CAR":26,"IND":27,"CIN":28,"CLE":29,"WAS":30,"HOU":31,"TB":32},"DST":{"SF":1,"KC":2,"DET":3,"BAL":4,"DAL":5,"JAX":6,"LV":7,"CAR":8,"MIN":9,"WAS":10,"NYJ":11,"BUF":12,"ARI":13,"HOU":14,"DEN":15,"CHI":16,"IND":17,"CIN":18,"TEN":19,"CLE":20,"PHI":21,"SEA":22,"GB":23,"LAR":24,"NO":25,"NYG":26,"ATL":27,"PIT":28,"MIA":29,"LAC":30,"NE":31,"TB":32}},
+  "posAvg": {"QB":22,"RB":21.6,"WR":21.9,"TE":14.5,"K":10.5,"DST":9.4},
+  "topAvgN": 12,
+  "unfinishedGames": [],
+  "injuryReport": false,
   "positions": {
-    "QB": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "josh-allen", "fppg": 24.8, "oppDefRank": 22},
-            {"id": "lamar-jackson", "fppg": 23.9, "oppDefRank": 18}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "jayden-daniels", "fppg": 22.5, "oppDefRank": 27},
-            {"id": "jalen-hurts", "fppg": 21.2, "oppDefRank": 6},
-            {"id": "joe-burrow", "fppg": 21.7, "oppDefRank": 10}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "patrick-mahomes", "fppg": 20.1, "oppDefRank": 25},
-            {"id": "jared-goff", "fppg": 19.4, "oppDefRank": 29},
-            {"id": "drake-maye", "fppg": 18.9, "oppDefRank": 20}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "bo-nix", "fppg": 18.1, "oppDefRank": 5},
-            {"id": "jordan-love", "fppg": 17.8, "oppDefRank": 14},
-            {"id": "caleb-williams", "fppg": 17.0, "oppDefRank": 12}
-          ]
-        },
-        {
-          "tier": "D",
-          "players": [
-            {"id": "cj-stroud", "fppg": 16.2, "oppDefRank": 3}
-          ]
-        }
-      ]
-    },
-    "RB": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "bijan-robinson", "fppg": 22.4, "oppDefRank": 24},
-            {"id": "jahmyr-gibbs", "fppg": 21.0, "oppDefRank": 27}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "christian-mccaffrey", "fppg": 19.8, "oppDefRank": 15},
-            {"id": "devon-achane", "fppg": 18.2, "oppDefRank": 21},
-            {"id": "saquon-barkley", "fppg": 17.6, "oppDefRank": 5}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "derrick-henry", "fppg": 16.4, "oppDefRank": 28},
-            {"id": "jonathan-taylor", "fppg": 16.0, "oppDefRank": 26},
-            {"id": "james-cook", "fppg": 15.1, "oppDefRank": 18}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "kyren-williams", "fppg": 13.8, "oppDefRank": 13},
-            {"id": "ashton-jeanty", "fppg": 13.2, "oppDefRank": 10},
-            {"id": "bucky-irving", "fppg": 13.1, "oppDefRank": 17},
-            {"id": "chase-brown", "fppg": 12.9, "oppDefRank": 6}
-          ]
-        },
-        {
-          "tier": "D",
-          "players": [
-            {"id": "quinshon-judkins", "fppg": 11.8, "oppDefRank": 9},
-            {"id": "jaylen-warren", "fppg": 11.2, "oppDefRank": 19}
-          ]
-        }
-      ]
-    },
-    "WR": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "jamarr-chase", "fppg": 22.8, "oppDefRank": 23},
-            {"id": "justin-jefferson", "fppg": 20.4, "oppDefRank": 25}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "puka-nacua", "fppg": 19.6, "oppDefRank": 12},
-            {"id": "amon-ra-st-brown", "fppg": 18.9, "oppDefRank": 29},
-            {"id": "ceedee-lamb", "fppg": 18.0, "oppDefRank": 8}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "malik-nabers", "fppg": 16.9, "oppDefRank": 20},
-            {"id": "nico-collins", "fppg": 16.1, "oppDefRank": 17},
-            {"id": "brian-thomas-jr", "fppg": 14.6, "oppDefRank": 11}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "drake-london", "fppg": 14.1, "oppDefRank": 26},
-            {"id": "aj-brown", "fppg": 13.4, "oppDefRank": 4},
-            {"id": "courtland-sutton", "fppg": 12.5, "oppDefRank": 14}
-          ]
-        },
-        {
-          "tier": "D",
-          "players": [
-            {"id": "marvin-harrison-jr", "fppg": 11.3, "oppDefRank": 21},
-            {"id": "denzel-boston", "fppg": 10.8, "oppDefRank": 7},
-            {"id": "dk-metcalf", "fppg": 9.9, "oppDefRank": 23}
-          ]
-        }
-      ]
-    },
-    "TE": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "brock-bowers", "fppg": 15.9, "oppDefRank": 16}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "trey-mcbride", "fppg": 14.8, "oppDefRank": 22},
-            {"id": "george-kittle", "fppg": 13.2, "oppDefRank": 19}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "sam-laporta", "fppg": 12.4, "oppDefRank": 30},
-            {"id": "travis-kelce", "fppg": 11.5, "oppDefRank": 24}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "tucker-kraft", "fppg": 10.1, "oppDefRank": 11},
-            {"id": "dalton-kincaid", "fppg": 9.6, "oppDefRank": 14}
-          ]
-        },
-        {
-          "tier": "D",
-          "players": [
-            {"id": "mark-andrews", "fppg": 8.4, "oppDefRank": 28}
-          ]
-        }
-      ]
-    },
-    "FLEX": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "jamarr-chase", "fppg": 22.8, "oppDefRank": 23},
-            {"id": "bijan-robinson", "fppg": 22.4, "oppDefRank": 24},
-            {"id": "jahmyr-gibbs", "fppg": 21.0, "oppDefRank": 27}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "justin-jefferson", "fppg": 20.4, "oppDefRank": 25},
-            {"id": "christian-mccaffrey", "fppg": 19.8, "oppDefRank": 15},
-            {"id": "puka-nacua", "fppg": 19.6, "oppDefRank": 12}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "amon-ra-st-brown", "fppg": 18.9, "oppDefRank": 29},
-            {"id": "devon-achane", "fppg": 18.2, "oppDefRank": 21},
-            {"id": "saquon-barkley", "fppg": 17.6, "oppDefRank": 5},
-            {"id": "brock-bowers", "fppg": 15.9, "oppDefRank": 16}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "ceedee-lamb", "fppg": 18.0, "oppDefRank": 8},
-            {"id": "malik-nabers", "fppg": 16.9, "oppDefRank": 20},
-            {"id": "derrick-henry", "fppg": 16.4, "oppDefRank": 28}
-          ]
-        },
-        {
-          "tier": "D",
-          "players": [
-            {"id": "jonathan-taylor", "fppg": 16.0, "oppDefRank": 26},
-            {"id": "nico-collins", "fppg": 16.1, "oppDefRank": 17}
-          ]
-        }
-      ]
-    },
-    "K": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "brandon-aubrey", "fppg": 10.8, "oppDefRank": 20}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "cameron-dicker", "fppg": 9.6, "oppDefRank": 22},
-            {"id": "jake-bates", "fppg": 9.4, "oppDefRank": 26}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "kaimi-fairbairn", "fppg": 8.9, "oppDefRank": 14},
-            {"id": "tyler-bass", "fppg": 8.5, "oppDefRank": 10}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "chris-boswell", "fppg": 7.6, "oppDefRank": 3}
-          ]
-        }
-      ]
-    },
-    "DST": {
-      "tiers": [
-        {
-          "tier": "S",
-          "players": [
-            {"id": "dst-pit", "fppg": 9.8, "oppDefRank": 27}
-          ]
-        },
-        {
-          "tier": "A",
-          "players": [
-            {"id": "dst-hou", "fppg": 8.8, "oppDefRank": 24},
-            {"id": "dst-phi", "fppg": 8.4, "oppDefRank": 20}
-          ]
-        },
-        {
-          "tier": "B",
-          "players": [
-            {"id": "dst-bal", "fppg": 7.9, "oppDefRank": 12},
-            {"id": "dst-den", "fppg": 7.2, "oppDefRank": 6}
-          ]
-        },
-        {
-          "tier": "C",
-          "players": [
-            {"id": "dst-min", "fppg": 6.1, "oppDefRank": 9}
-          ]
-        }
-      ]
-    }
+    "QB": {"tiers":[{"label":"S","color":"#f47174","ids":["josh-allen"]},{"label":"A","color":"#f89a4b","ids":["joe-burrow","jared-goff","matthew-stafford"]},{"label":"B","color":"#f9c440","ids":["trevor-lawrence","dak-prescott","jacoby-brissett"]},{"label":"C","color":"#6fdc8c","ids":["brock-purdy","drake-maye","tyler-shough"]},{"label":"D","color":"#34c46a","ids":["jordan-love","jalen-hurts","bo-nix","jayden-daniels"]},{"label":"E","color":"#35d0e0","ids":["kyler-murray","aaron-rodgers","sam-darnold","cj-stroud","kirk-cousins"]},{"label":"F","color":"#5ba2f5","ids":["jameis-winston","justin-herbert","deshaun-watson","geno-smith","tyson-bagent","michael-penix"]},{"label":"G","color":"#3b73e0","ids":["jalon-daniels","malik-willis","daniel-jones","tyler-huntley","cam-ward"]}],"sources":["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","Flock Fantasy","CBS Sports"],"partial":false},
+    "RB": {"tiers":[{"label":"S","color":"#f47174","ids":["jahmyr-gibbs","bijan-robinson"]},{"label":"A","color":"#f89a4b","ids":["jonathan-taylor","chase-brown"]},{"label":"B","color":"#f9c440","ids":["kyren-williams","christian-mccaffrey","derrick-henry","javonte-williams"]},{"label":"C","color":"#6fdc8c","ids":["ashton-jeanty","james-cook","jaylen-warren","aaron-jones","dandre-swift"]},{"label":"D","color":"#34c46a","ids":["jeremiyah-love","bhayshul-tuten","emanuel-wilson","cam-skattebo","quinshon-judkins","bucky-irving","braelon-allen"]},{"label":"E","color":"#35d0e0","ids":["omarion-hampton","rhamondre-stevenson","kyle-monangai","david-montgomery","rj-harvey","alvin-kamara","will-shipley","ollie-gordon"]},{"label":"F","color":"#5ba2f5","ids":["tony-pollard","treveyon-henderson","jacory-croskey-merritt","jk-dobbins","tyler-allgeier","keaton-mitchell","woody-marks"]},{"label":"G","color":"#3b73e0","ids":["blake-corum","marshawn-lloyd","kendre-miller","kenneth-gainwell","rico-dowdle","brian-robinson","chris-rodriguez","jaylen-wright","tyjae-spears","mike-washington"]}],"sources":["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","Flock Fantasy","CBS Sports"],"partial":false},
+    "WR": {"tiers":[{"label":"S","color":"#f47174","ids":["jaxon-smith-njigba"]},{"label":"A","color":"#f89a4b","ids":["amon-ra-st-brown","puka-nacua","jamarr-chase"]},{"label":"B","color":"#f9c440","ids":["ceedee-lamb","drake-london","nico-collins","chris-olave","michael-wilson","zay-flowers","justin-jefferson"]},{"label":"C","color":"#6fdc8c","ids":["garrett-wilson","malik-nabers","christian-watson","parker-washington","george-pickens","davante-adams","tee-higgins"]},{"label":"D","color":"#34c46a","ids":["matthew-golden","jaylen-waddle","dk-metcalf","jameson-williams","mike-evans","luther-burden","terry-mclaurin","stefon-diggs","dj-moore","ladd-mcconkey"]},{"label":"E","color":"#35d0e0","ids":["josh-downs","carnell-tate","denzel-boston","deebo-samuel","romeo-doubs","devaughn-vele","jordan-addison","malik-washington","rome-odunze","emeka-egbuka"]},{"label":"F","color":"#5ba2f5","ids":["kc-concepcion","khalil-shakir","jakobi-meyers","dontayvion-wicks","keon-coleman","tre-tucker","wandale-robinson","courtland-sutton"]},{"label":"G","color":"#3b73e0","ids":["dohnte-meyers","chris-godwin","tre-harris","kalif-raymond","makai-lemon","roman-wilson","marvin-harrison","antonio-williams","brian-thomas","quentin-johnston","ryan-flournoy","chris-bell","rashid-shaheed","michael-pittman"]}],"sources":["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","Flock Fantasy","CBS Sports"],"partial":false},
+    "TE": {"tiers":[{"label":"S","color":"#f47174","ids":["trey-mcbride","brock-bowers"]},{"label":"A","color":"#f89a4b","ids":["george-kittle","sam-laporta"]},{"label":"B","color":"#f9c440","ids":["tyler-warren","isaiah-likely"]},{"label":"C","color":"#6fdc8c","ids":["juwan-johnson","tucker-kraft","dalton-kincaid"]},{"label":"D","color":"#34c46a","ids":["harold-fannin","tj-hockenson","colston-loveland"]},{"label":"E","color":"#35d0e0","ids":["mike-gesicki","tyler-higbee"]},{"label":"F","color":"#5ba2f5","ids":["mark-andrews","hunter-henry","kenyon-sadiq","brenton-strange"]},{"label":"G","color":"#3b73e0","ids":["jake-ferguson","pat-freiermuth","dalton-schultz","aj-barner","michael-mayer","kyle-pitts","cade-otton"]}],"sources":["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","Flock Fantasy","CBS Sports"],"partial":false},
+    "K": {"tiers":[{"label":"S","color":"#f47174","ids":["brandon-aubrey"]},{"label":"A","color":"#f89a4b","ids":["kaimi-fairbairn"]},{"label":"B","color":"#f9c440","ids":["will-reichard"]},{"label":"C","color":"#6fdc8c","ids":["evan-mcpherson","cam-little"]},{"label":"D","color":"#34c46a","ids":["spencer-shrader","jake-bates","jason-myers"]},{"label":"E","color":"#35d0e0","ids":["tyler-loop","harrison-mevis","chris-boswell","eddy-pineiro","cairo-santos"]},{"label":"F","color":"#5ba2f5","ids":["tyler-bass","trey-smack","matt-gay"]},{"label":"G","color":"#3b73e0","ids":["nick-folk","chad-ryland","daniel-carlson","chase-mclaughlin"]}],"sources":["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","CBS Sports"],"partial":false},
+    "DST": {"tiers":[{"label":"S","color":"#f47174","ids":["dst-min"]},{"label":"A","color":"#f89a4b","ids":["dst-hou"]},{"label":"B","color":"#f9c440","ids":["dst-pit","dst-cin"]},{"label":"C","color":"#6fdc8c","ids":["dst-den","dst-jax"]},{"label":"D","color":"#34c46a","ids":["dst-dal","dst-cle","dst-chi","dst-sea"]},{"label":"E","color":"#35d0e0","ids":["dst-bal","dst-ne","dst-nyj"]},{"label":"F","color":"#5ba2f5","ids":["dst-was","dst-no","dst-gb"]},{"label":"G","color":"#3b73e0","ids":["dst-ind","dst-atl","dst-nyg","dst-lar"]}],"sources":["FantasyPros ECR","ESPN","Yahoo","Sleeper projections","Flock Fantasy","CBS Sports"],"partial":false}
+  },
+  "players": {
+    "josh-allen": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":28.9,"oppRank":13,"rank":1,"avg":1,"best":1,"worst":1,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Trending down: 19.5 PPG over his last 2 games"],"myRank":1,"tier":"S"},
+    "joe-burrow": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":19.9,"oppRank":22,"rank":3,"avg":3.8,"best":2,"worst":6,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":2,"tier":"A"},
+    "jared-goff": {"opp":"ARI","oppLogo":"ari","home":false,"fppg":21.5,"oppRank":28,"rank":2,"avg":2.7,"best":2,"worst":4,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 21.5 PPG; a QB2 usually scores about 25.4"],"myRank":3,"tier":"A"},
+    "matthew-stafford": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":16.9,"oppRank":29,"rank":4,"avg":3.8,"best":2,"worst":6,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 16.9 PPG; a QB4 usually scores about 21.5"],"myRank":4,"tier":"A"},
+    "trevor-lawrence": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":16.8,"oppRank":23,"rank":6,"avg":6.7,"best":5,"worst":9,"nSources":6,"flags":[],"ou":41.5,"panic":2,"panicWhy":["Scoring 16.8 PPG; a QB6 usually scores about 20.5"],"myRank":5,"tier":"B"},
+    "dak-prescott": {"opp":"TB","oppLogo":"tb","home":true,"fppg":20.5,"oppRank":9,"rank":5,"avg":5.2,"best":3,"worst":8,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":6,"tier":"B"},
+    "jacoby-brissett": {"opp":"DET","oppLogo":"det","home":true,"fppg":15.8,"oppRank":32,"rank":7,"avg":7.5,"best":6,"worst":10,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 15.8 PPG; a QB7 usually scores about 19.9"],"myRank":7,"tier":"B"},
+    "brock-purdy": {"opp":"SEA","oppLogo":"sea","home":false,"fppg":25.4,"oppRank":2,"rank":9,"avg":8,"best":5,"worst":10,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":8,"tier":"C"},
+    "drake-maye": {"opp":"LV","oppLogo":"lv","home":true,"fppg":13.7,"oppRank":18,"rank":8,"avg":7.8,"best":4,"worst":10,"nSources":6,"flags":[],"ou":45.5,"panic":2,"panicWhy":["Scoring 13.7 PPG; a QB8 usually scores about 17.5"],"myRank":9,"tier":"C"},
+    "tyler-shough": {"opp":"MIN","oppLogo":"min","home":true,"fppg":22.1,"oppRank":1,"rank":12,"avg":12.2,"best":10,"worst":17,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":10,"tier":"C"},
+    "jordan-love": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":17,"oppRank":10,"rank":11,"avg":12.2,"best":10,"worst":15,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":11,"tier":"D"},
+    "jalen-hurts": {"opp":"JAX","oppLogo":"jax","home":false,"fppg":17.5,"oppRank":11,"rank":14,"avg":14.8,"best":12,"worst":21,"nSources":6,"flags":[],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":12,"tier":"D"},
+    "bo-nix": {"opp":"LAC","oppLogo":"lac","home":false,"fppg":15.1,"oppRank":19,"rank":13,"avg":14.2,"best":9,"worst":19,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 15.1 PPG; a QB13 usually scores about 16.8"],"myRank":13,"tier":"D"},
+    "jayden-daniels": {"opp":"NYG","oppLogo":"nyg","home":true,"fppg":16.2,"oppRank":16,"rank":10,"avg":9,"best":3,"worst":11,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":14,"tier":"D"},
+    "kyler-murray": {"opp":"NO","oppLogo":"no","home":false,"fppg":7.8,"oppRank":15,"rank":15,"avg":15.8,"best":12,"worst":22,"nSources":6,"flags":[],"ou":42.5,"panic":4,"panicWhy":["Scoring 7.8 PPG; a QB15 usually scores about 16.2"],"myRank":15,"tier":"E"},
+    "aaron-rodgers": {"opp":"IND","oppLogo":"ind","home":true,"fppg":16.3,"oppRank":27,"rank":16,"avg":17.2,"best":13,"worst":22,"nSources":6,"flags":[],"ou":44.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":16,"tier":"E"},
+    "sam-darnold": {"opp":"SF","oppLogo":"sf","home":true,"fppg":14.8,"oppRank":7,"rank":17,"avg":17.2,"best":15,"worst":20,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":17,"tier":"E"},
+    "cj-stroud": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":17.1,"oppRank":6,"rank":18,"avg":18,"best":13,"worst":21,"nSources":6,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":18,"tier":"E"},
+    "kirk-cousins": {"opp":"NE","oppLogo":"ne","home":false,"fppg":20.7,"oppRank":8,"rank":19,"avg":18.3,"best":14,"worst":23,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":19,"tier":"E"},
+    "jameis-winston": {"opp":"WAS","oppLogo":"wsh","home":false,"fppg":9.9,"oppRank":30,"rank":20,"avg":18.7,"best":15,"worst":25,"nSources":6,"flags":[],"ou":43.5,"panic":3,"panicWhy":["Scoring 9.9 PPG; a QB20 usually scores about 14.7"],"myRank":20,"tier":"F"},
+    "justin-herbert": {"opp":"DEN","oppLogo":"den","home":true,"fppg":12.4,"oppRank":21,"rank":25,"avg":23.8,"best":20,"worst":25,"nSources":5,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":21,"tier":"F"},
+    "deshaun-watson": {"opp":"NYJ","oppLogo":"nyj","home":false,"fppg":17.2,"oppRank":5,"rank":21,"avg":20.7,"best":16,"worst":24,"nSources":6,"flags":[],"ou":40.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":22,"tier":"F"},
+    "geno-smith": {"opp":"CLE","oppLogo":"cle","home":true,"fppg":14.9,"oppRank":24,"rank":22,"avg":22.3,"best":20,"worst":26,"nSources":6,"flags":[],"ou":40.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":23,"tier":"F"},
+    "tyson-bagent": {"opp":"GB","oppLogo":"gb","home":false,"fppg":6,"oppRank":12,"rank":23,"avg":22.6,"best":19,"worst":27,"nSources":5,"flags":[],"ou":45.5,"panic":4,"panicWhy":["Scoring 6.0 PPG; a QB23 usually scores about 12.4"],"myRank":24,"tier":"F"},
+    "michael-penix": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":13.9,"oppRank":17,"rank":24,"avg":23.3,"best":23,"worst":24,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":25,"tier":"F"},
+    "jalon-daniels": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":6.7,"oppRank":31,"rank":26,"avg":25.8,"best":20,"worst":30,"nSources":4,"flags":[],"ou":47.5,"panic":3,"panicWhy":["Scoring 6.7 PPG; a QB26 usually scores about 9.9"],"myRank":26,"tier":"G"},
+    "malik-willis": {"opp":"CIN","oppLogo":"cin","home":true,"fppg":10.9,"oppRank":14,"rank":27,"avg":26.5,"best":19,"worst":30,"nSources":4,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Trending down: 6.8 PPG over his last 2 games"],"myRank":27,"tier":"G"},
+    "daniel-jones": {"opp":"PIT","oppLogo":"pit","home":false,"fppg":10,"oppRank":3,"rank":28,"avg":27,"best":26,"worst":28,"nSources":4,"flags":[],"ou":44.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":28,"tier":"G"},
+    "tyler-huntley": {"opp":"ATL","oppLogo":"atl","home":false,"fppg":2.1,"oppRank":20,"rank":29,"avg":28.4,"best":24,"worst":31,"nSources":5,"flags":["Starter not confirmed: Lamar Jackson (sprained ankle) didn't practice Wednesday and is expected to sit; Huntley took the first-team reps (BaltimoreRavens.com, The Banner, NBC Sports, Oct. 7)"],"ou":43.5,"panic":5,"panicWhy":["Scoring 2.1 PPG; a QB29 usually scores about 6.0"],"myRank":29,"tier":"G"},
+    "cam-ward": {"opp":"HOU","oppLogo":"hou","home":true,"fppg":14.7,"oppRank":25,"rank":30,"avg":29.8,"best":29,"worst":31,"nSources":4,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":30,"tier":"G"},
+    "jahmyr-gibbs": {"opp":"ARI","oppLogo":"ari","home":false,"fppg":29,"oppRank":2,"rank":1,"avg":1,"best":1,"worst":1,"nSources":6,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":1,"tier":"S"},
+    "bijan-robinson": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":26.3,"oppRank":11,"rank":2,"avg":2,"best":2,"worst":2,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":2,"tier":"S"},
+    "jonathan-taylor": {"opp":"PIT","oppLogo":"pit","home":false,"fppg":21.6,"oppRank":24,"rank":3,"avg":3,"best":3,"worst":3,"nSources":6,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Snap share dropping: 71% last game vs 85% on the season"],"myRank":3,"tier":"A"},
+    "chase-brown": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":14.5,"oppRank":28,"rank":7,"avg":6.7,"best":5,"worst":9,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 14.5 PPG; a RB7 usually scores about 18.5"],"myRank":4,"tier":"A"},
+    "kyren-williams": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":22.4,"oppRank":27,"rank":4,"avg":4.3,"best":4,"worst":5,"nSources":6,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":5,"tier":"B"},
+    "christian-mccaffrey": {"opp":"SEA","oppLogo":"sea","home":false,"fppg":18.5,"oppRank":18,"rank":5,"avg":6.2,"best":5,"worst":7,"nSources":6,"flags":[],"ou":45.5,"panic":2,"panicWhy":["Scoring 18.5 PPG; a RB5 usually scores about 21.6"],"myRank":6,"tier":"B"},
+    "derrick-henry": {"opp":"ATL","oppLogo":"atl","home":false,"fppg":22.7,"oppRank":6,"rank":6,"avg":6.7,"best":4,"worst":10,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":7,"tier":"B"},
+    "javonte-williams": {"opp":"TB","oppLogo":"tb","home":true,"fppg":20.5,"oppRank":10,"rank":9,"avg":9,"best":5,"worst":11,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":8,"tier":"B"},
+    "ashton-jeanty": {"opp":"NE","oppLogo":"ne","home":false,"fppg":18.5,"oppRank":15,"rank":10,"avg":9.7,"best":7,"worst":13,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":9,"tier":"C"},
+    "james-cook": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":16.6,"oppRank":3,"rank":8,"avg":8.7,"best":4,"worst":12,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 16.6 PPG; a RB8 usually scores about 18.5"],"myRank":10,"tier":"C"},
+    "jaylen-warren": {"opp":"IND","oppLogo":"ind","home":true,"fppg":14.1,"oppRank":23,"rank":11,"avg":10.8,"best":8,"worst":14,"nSources":6,"flags":[],"ou":44.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":11,"tier":"C"},
+    "aaron-jones": {"opp":"NO","oppLogo":"no","home":false,"fppg":12.9,"oppRank":32,"rank":12,"avg":11.8,"best":8,"worst":15,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 12.9 PPG; a RB12 usually scores about 14.5"],"myRank":12,"tier":"C"},
+    "dandre-swift": {"opp":"GB","oppLogo":"gb","home":false,"fppg":15.9,"oppRank":31,"rank":13,"avg":13.7,"best":12,"worst":16,"nSources":6,"flags":[],"ou":45.5,"panic":3,"panicWhy":["Trending down: 9.1 PPG over his last 2 games","Snap share dropping: 35% last game vs 57% on the season"],"myRank":13,"tier":"C"},
+    "jeremiyah-love": {"opp":"DET","oppLogo":"det","home":true,"fppg":12.2,"oppRank":19,"rank":14,"avg":15.2,"best":12,"worst":21,"nSources":6,"flags":[],"ou":54.5,"panic":6,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":14,"tier":"D"},
+    "bhayshul-tuten": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":13,"oppRank":21,"rank":15,"avg":16.3,"best":14,"worst":20,"nSources":6,"flags":[],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":15,"tier":"D"},
+    "emanuel-wilson": {"opp":"SF","oppLogo":"sf","home":true,"fppg":9.5,"oppRank":25,"rank":17,"avg":17.8,"best":15,"worst":22,"nSources":6,"flags":[],"ou":45.5,"panic":2,"panicWhy":["Scoring 9.5 PPG; a RB17 usually scores about 12.2"],"myRank":16,"tier":"D"},
+    "cam-skattebo": {"opp":"WAS","oppLogo":"wsh","home":false,"fppg":11.1,"oppRank":4,"rank":18,"avg":18,"best":16,"worst":20,"nSources":6,"flags":[],"ou":43.5,"panic":6,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":17,"tier":"D"},
+    "quinshon-judkins": {"opp":"NYJ","oppLogo":"nyj","home":false,"fppg":12.1,"oppRank":29,"rank":19,"avg":18.2,"best":15,"worst":24,"nSources":6,"flags":[],"ou":40.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":18,"tier":"D"},
+    "bucky-irving": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":11.8,"oppRank":20,"rank":16,"avg":17,"best":10,"worst":23,"nSources":6,"flags":[],"ou":47.5,"panic":6,"panicWhy":["Trending down: 6.9 PPG over his last 2 games"],"myRank":19,"tier":"D"},
+    "braelon-allen": {"opp":"CLE","oppLogo":"cle","home":true,"fppg":6.5,"oppRank":5,"rank":20,"avg":21.8,"best":11,"worst":41,"nSources":6,"flags":[],"ou":40.5,"panic":4,"panicWhy":["Scoring 6.5 PPG; a RB20 usually scores about 11.8"],"myRank":20,"tier":"D"},
+    "omarion-hampton": {"opp":"DEN","oppLogo":"den","home":true,"fppg":11.2,"oppRank":26,"rank":25,"avg":24.7,"best":22,"worst":31,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Snap share dropping: 35% last game vs 50% on the season"],"myRank":21,"tier":"E"},
+    "rhamondre-stevenson": {"opp":"LV","oppLogo":"lv","home":true,"fppg":10.8,"oppRank":16,"rank":21,"avg":22.2,"best":16,"worst":31,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":22,"tier":"E"},
+    "kyle-monangai": {"opp":"GB","oppLogo":"gb","home":false,"fppg":14.8,"oppRank":31,"rank":22,"avg":22.2,"best":17,"worst":27,"nSources":5,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":23,"tier":"E"},
+    "david-montgomery": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":11.1,"oppRank":14,"rank":23,"avg":23.7,"best":18,"worst":26,"nSources":6,"flags":[],"ou":37.5,"panic":2,"panicWhy":["Trending down: 5.5 PPG over his last 2 games"],"myRank":24,"tier":"E"},
+    "rj-harvey": {"opp":"LAC","oppLogo":"lac","home":false,"fppg":12.7,"oppRank":22,"rank":24,"avg":24.5,"best":23,"worst":28,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":25,"tier":"E"},
+    "alvin-kamara": {"opp":"MIN","oppLogo":"min","home":true,"fppg":11.7,"oppRank":1,"rank":27,"avg":26.8,"best":21,"worst":36,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":26,"tier":"E"},
+    "will-shipley": {"opp":"JAX","oppLogo":"jax","home":false,"fppg":2.9,"oppRank":9,"rank":29,"avg":28.5,"best":24,"worst":31,"nSources":6,"flags":[],"ou":41.5,"panic":5,"panicWhy":["Scoring 2.9 PPG; a RB29 usually scores about 7.7"],"myRank":27,"tier":"E"},
+    "ollie-gordon": {"opp":"CIN","oppLogo":"cin","home":true,"fppg":8.3,"oppRank":12,"rank":26,"avg":25.3,"best":17,"worst":29,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 8.3 PPG; a RB26 usually scores about 9.6"],"myRank":28,"tier":"E"},
+    "tony-pollard": {"opp":"HOU","oppLogo":"hou","home":true,"fppg":9.6,"oppRank":8,"rank":28,"avg":27.8,"best":22,"worst":33,"nSources":6,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":29,"tier":"F"},
+    "treveyon-henderson": {"opp":"LV","oppLogo":"lv","home":true,"fppg":7.2,"oppRank":16,"rank":30,"avg":28.8,"best":25,"worst":34,"nSources":6,"flags":[],"ou":45.5,"panic":2,"panicWhy":["Trending down: 4.0 PPG over his last 2 games"],"myRank":30,"tier":"F"},
+    "jacory-croskey-merritt": {"opp":"NYG","oppLogo":"nyg","home":true,"fppg":7.7,"oppRank":17,"rank":31,"avg":31.2,"best":27,"worst":35,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":31,"tier":"F"},
+    "jk-dobbins": {"opp":"LAC","oppLogo":"lac","home":false,"fppg":5.2,"oppRank":22,"rank":32,"avg":32,"best":30,"worst":33,"nSources":6,"flags":[],"ou":42.5,"panic":3,"panicWhy":["Scoring 5.2 PPG; a RB32 usually scores about 7.7"],"myRank":32,"tier":"F"},
+    "tyler-allgeier": {"opp":"DET","oppLogo":"det","home":true,"fppg":7.7,"oppRank":19,"rank":33,"avg":32.8,"best":31,"worst":36,"nSources":6,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":33,"tier":"F"},
+    "keaton-mitchell": {"opp":"DEN","oppLogo":"den","home":true,"fppg":7.7,"oppRank":26,"rank":34,"avg":33.2,"best":29,"worst":37,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":34,"tier":"F"},
+    "woody-marks": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":7.7,"oppRank":14,"rank":35,"avg":35,"best":30,"worst":40,"nSources":6,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":35,"tier":"F"},
+    "blake-corum": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":5.6,"oppRank":27,"rank":36,"avg":36.8,"best":34,"worst":40,"nSources":6,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Trending down: 3.3 PPG over his last 2 games","Snap share dropping: 15% last game vs 28% on the season"],"myRank":36,"tier":"G"},
+    "marshawn-lloyd": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":6.5,"oppRank":7,"rank":37,"avg":37,"best":33,"worst":39,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":37,"tier":"G"},
+    "kendre-miller": {"opp":"MIN","oppLogo":"min","home":true,"fppg":4.9,"oppRank":1,"rank":38,"avg":40,"best":36,"worst":43,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Trending down: 2.9 PPG over his last 2 games"],"myRank":38,"tier":"G"},
+    "kenneth-gainwell": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":5.3,"oppRank":20,"rank":39,"avg":40.5,"best":29,"worst":46,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":39,"tier":"G"},
+    "rico-dowdle": {"opp":"IND","oppLogo":"ind","home":true,"fppg":5.3,"oppRank":23,"rank":40,"avg":40.7,"best":26,"worst":57,"nSources":3,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Snap share dropping: 26% last game vs 42% on the season"],"myRank":40,"tier":"G"},
+    "brian-robinson": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":12.1,"oppRank":11,"rank":41,"avg":41.7,"best":36,"worst":54,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":41,"tier":"G"},
+    "chris-rodriguez": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":5.7,"oppRank":21,"rank":42,"avg":42.7,"best":37,"worst":50,"nSources":6,"flags":[],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":42,"tier":"G"},
+    "jaylen-wright": {"opp":"CIN","oppLogo":"cin","home":true,"fppg":0.6,"oppRank":12,"rank":43,"avg":44.7,"best":41,"worst":52,"nSources":6,"flags":[],"ou":42.5,"panic":5,"panicWhy":["Scoring 0.6 PPG; a RB43 usually scores about 3.9"],"myRank":43,"tier":"G"},
+    "tyjae-spears": {"opp":"HOU","oppLogo":"hou","home":true,"fppg":3.9,"oppRank":8,"rank":44,"avg":44.8,"best":41,"worst":50,"nSources":6,"flags":[],"ou":37.5,"panic":2,"panicWhy":["Trending down: 1.1 PPG over his last 2 games"],"myRank":44,"tier":"G"},
+    "mike-washington": {"opp":"NE","oppLogo":"ne","home":false,"fppg":4.7,"oppRank":15,"rank":45,"avg":45,"best":37,"worst":51,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":45,"tier":"G"},
+    "jaxon-smith-njigba": {"opp":"SF","oppLogo":"sf","home":true,"fppg":29.2,"oppRank":7,"rank":1,"avg":1.2,"best":1,"worst":2,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":1,"tier":"S"},
+    "amon-ra-st-brown": {"opp":"ARI","oppLogo":"ari","home":false,"fppg":22.8,"oppRank":27,"rank":3,"avg":3,"best":2,"worst":4,"nSources":6,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Scoring 22.8 PPG; a WR3 usually scores about 26.0","Trending down: 13.7 PPG over his last 2 games"],"myRank":2,"tier":"A"},
+    "puka-nacua": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":20.1,"oppRank":30,"rank":2,"avg":2.3,"best":1,"worst":3,"nSources":6,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Scoring 20.1 PPG; a WR2 usually scores about 28.0"],"myRank":3,"tier":"A"},
+    "jamarr-chase": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":15.1,"oppRank":3,"rank":23,"avg":23.6,"best":3,"worst":70,"nSources":5,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Snap share dropping: 20% last game vs 75% on the season"],"myRank":4,"tier":"A"},
+    "ceedee-lamb": {"opp":"TB","oppLogo":"tb","home":true,"fppg":28,"oppRank":5,"rank":4,"avg":4,"best":2,"worst":5,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":5,"tier":"B"},
+    "drake-london": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":14.4,"oppRank":26,"rank":5,"avg":6.2,"best":4,"worst":8,"nSources":6,"flags":[],"ou":43.5,"panic":3,"panicWhy":["Scoring 14.4 PPG; a WR5 usually scores about 22.5"],"myRank":6,"tier":"B"},
+    "nico-collins": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":26,"oppRank":19,"rank":6,"avg":7.2,"best":6,"worst":10,"nSources":6,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":7,"tier":"B"},
+    "chris-olave": {"opp":"MIN","oppLogo":"min","home":true,"fppg":22.5,"oppRank":14,"rank":7,"avg":7.7,"best":5,"worst":10,"nSources":6,"flags":[],"ou":42.5,"panic":6,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":8,"tier":"B"},
+    "michael-wilson": {"opp":"DET","oppLogo":"det","home":true,"fppg":14.2,"oppRank":31,"rank":8,"avg":9.3,"best":7,"worst":12,"nSources":6,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Scoring 14.2 PPG; a WR8 usually scores about 19.3"],"myRank":9,"tier":"B"},
+    "zay-flowers": {"opp":"ATL","oppLogo":"atl","home":false,"fppg":22.4,"oppRank":28,"rank":9,"avg":9.3,"best":7,"worst":11,"nSources":6,"flags":[],"ou":43.5,"panic":4,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":10,"tier":"B"},
+    "justin-jefferson": {"opp":"NO","oppLogo":"no","home":false,"fppg":15,"oppRank":13,"rank":24,"avg":23.6,"best":6,"worst":64,"nSources":5,"flags":[],"ou":42.5,"panic":6,"panicWhy":["Trending down: 6.8 PPG over his last 2 games","Snap share dropping: 12% last game vs 68% on the season"],"myRank":11,"tier":"B"},
+    "garrett-wilson": {"opp":"CLE","oppLogo":"cle","home":true,"fppg":15.8,"oppRank":25,"rank":10,"avg":12,"best":11,"worst":13,"nSources":6,"flags":[],"ou":40.5,"panic":2,"panicWhy":["Scoring 15.8 PPG; a WR10 usually scores about 17.8"],"myRank":12,"tier":"C"},
+    "malik-nabers": {"opp":"WAS","oppLogo":"wsh","home":false,"fppg":11.2,"oppRank":29,"rank":11,"avg":12.8,"best":10,"worst":17,"nSources":6,"flags":[],"ou":43.5,"panic":5,"panicWhy":["Scoring 11.2 PPG; a WR11 usually scores about 15.8"],"myRank":13,"tier":"C"},
+    "christian-watson": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":19.3,"oppRank":4,"rank":12,"avg":13.5,"best":9,"worst":17,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":14,"tier":"C"},
+    "parker-washington": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":12.8,"oppRank":23,"rank":14,"avg":14.3,"best":11,"worst":16,"nSources":6,"flags":[],"ou":41.5,"panic":3,"panicWhy":["Scoring 12.8 PPG; a WR14 usually scores about 14.5","Trending down: 7.5 PPG over his last 2 games"],"myRank":15,"tier":"C"},
+    "george-pickens": {"opp":"TB","oppLogo":"tb","home":true,"fppg":10.1,"oppRank":5,"rank":15,"avg":15.8,"best":13,"worst":19,"nSources":6,"flags":[],"ou":47.5,"panic":6,"panicWhy":["Scoring 10.1 PPG; a WR15 usually scores about 14.5"],"myRank":16,"tier":"C"},
+    "davante-adams": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":18.3,"oppRank":30,"rank":13,"avg":13.7,"best":12,"worst":15,"nSources":6,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":17,"tier":"C"},
+    "tee-higgins": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":17.8,"oppRank":3,"rank":27,"avg":27.3,"best":7,"worst":54,"nSources":6,"flags":[],"ou":42.5,"panic":6,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":18,"tier":"C"},
+    "matthew-golden": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":14.5,"oppRank":4,"rank":16,"avg":18,"best":15,"worst":21,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":19,"tier":"D"},
+    "jaylen-waddle": {"opp":"LAC","oppLogo":"lac","home":false,"fppg":11,"oppRank":18,"rank":17,"avg":19.8,"best":17,"worst":26,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 11.0 PPG; a WR17 usually scores about 14.2"],"myRank":20,"tier":"D"},
+    "dk-metcalf": {"opp":"IND","oppLogo":"ind","home":true,"fppg":10.8,"oppRank":21,"rank":18,"avg":21.2,"best":18,"worst":25,"nSources":6,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Scoring 10.8 PPG; a WR18 usually scores about 13.9"],"myRank":21,"tier":"D"},
+    "jameson-williams": {"opp":"ARI","oppLogo":"ari","home":false,"fppg":9.7,"oppRank":27,"rank":20,"avg":22.5,"best":20,"worst":29,"nSources":6,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Scoring 9.7 PPG; a WR20 usually scores about 13.3"],"myRank":22,"tier":"D"},
+    "mike-evans": {"opp":"SEA","oppLogo":"sea","home":false,"fppg":12.6,"oppRank":2,"rank":19,"avg":22.3,"best":17,"worst":27,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":23,"tier":"D"},
+    "luther-burden": {"opp":"GB","oppLogo":"gb","home":false,"fppg":11.7,"oppRank":17,"rank":22,"avg":23.2,"best":19,"worst":27,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":24,"tier":"D"},
+    "terry-mclaurin": {"opp":"NYG","oppLogo":"nyg","home":true,"fppg":10,"oppRank":16,"rank":37,"avg":38.2,"best":21,"worst":75,"nSources":4,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":25,"tier":"D"},
+    "stefon-diggs": {"opp":"NYG","oppLogo":"nyg","home":true,"fppg":13.3,"oppRank":16,"rank":25,"avg":24.5,"best":19,"worst":34,"nSources":6,"flags":[],"ou":43.5,"panic":2,"panicWhy":["Trending down: 7.9 PPG over his last 2 games"],"myRank":26,"tier":"D"},
+    "dj-moore": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":9.1,"oppRank":15,"rank":36,"avg":37.4,"best":23,"worst":50,"nSources":5,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Snap share dropping: 39% last game vs 52% on the season"],"myRank":27,"tier":"D"},
+    "ladd-mcconkey": {"opp":"DEN","oppLogo":"den","home":true,"fppg":9.1,"oppRank":9,"rank":42,"avg":41.6,"best":36,"worst":51,"nSources":5,"flags":[],"ou":42.5,"panic":3,"panicWhy":["Trending down: 5.3 PPG over his last 2 games","Snap share dropping: 34% last game vs 54% on the season"],"myRank":28,"tier":"D"},
+    "josh-downs": {"opp":"PIT","oppLogo":"pit","home":false,"fppg":9.3,"oppRank":11,"rank":26,"avg":25.5,"best":21,"worst":31,"nSources":6,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Scoring 9.3 PPG; a WR26 usually scores about 11.2"],"myRank":29,"tier":"E"},
+    "carnell-tate": {"opp":"HOU","oppLogo":"hou","home":true,"fppg":11.7,"oppRank":32,"rank":21,"avg":23,"best":19,"worst":27,"nSources":6,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":30,"tier":"E"},
+    "denzel-boston": {"opp":"NYJ","oppLogo":"nyj","home":false,"fppg":13.9,"oppRank":8,"rank":28,"avg":28.8,"best":27,"worst":31,"nSources":6,"flags":[],"ou":40.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":31,"tier":"E"},
+    "deebo-samuel": {"opp":"SEA","oppLogo":"sea","home":false,"fppg":14.5,"oppRank":2,"rank":29,"avg":30,"best":28,"worst":34,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":32,"tier":"E"},
+    "romeo-doubs": {"opp":"LV","oppLogo":"lv","home":true,"fppg":11.1,"oppRank":6,"rank":30,"avg":30.3,"best":28,"worst":35,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":33,"tier":"E"},
+    "devaughn-vele": {"opp":"MIN","oppLogo":"min","home":true,"fppg":13.9,"oppRank":14,"rank":31,"avg":30.7,"best":24,"worst":39,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":34,"tier":"E"},
+    "jordan-addison": {"opp":"NO","oppLogo":"no","home":false,"fppg":8.3,"oppRank":13,"rank":32,"avg":31.7,"best":24,"worst":47,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 8.3 PPG; a WR32 usually scores about 10.4"],"myRank":35,"tier":"E"},
+    "malik-washington": {"opp":"CIN","oppLogo":"cin","home":true,"fppg":9.5,"oppRank":12,"rank":33,"avg":33.5,"best":29,"worst":37,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":36,"tier":"E"},
+    "rome-odunze": {"opp":"GB","oppLogo":"gb","home":false,"fppg":9.3,"oppRank":17,"rank":34,"avg":33.5,"best":30,"worst":41,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":37,"tier":"E"},
+    "emeka-egbuka": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":9,"oppRank":22,"rank":38,"avg":39.3,"best":33,"worst":42,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":38,"tier":"E"},
+    "kc-concepcion": {"opp":"NYJ","oppLogo":"nyj","home":false,"fppg":7.6,"oppRank":8,"rank":35,"avg":36.2,"best":33,"worst":42,"nSources":6,"flags":[],"ou":40.5,"panic":2,"panicWhy":["Scoring 7.6 PPG; a WR35 usually scores about 10.1"],"myRank":39,"tier":"F"},
+    "khalil-shakir": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":7.7,"oppRank":15,"rank":39,"avg":39.5,"best":34,"worst":46,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 7.7 PPG; a WR39 usually scores about 9.4"],"myRank":40,"tier":"F"},
+    "jakobi-meyers": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":10.4,"oppRank":23,"rank":40,"avg":40,"best":35,"worst":45,"nSources":6,"flags":[],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":41,"tier":"F"},
+    "dontayvion-wicks": {"opp":"JAX","oppLogo":"jax","home":false,"fppg":9.4,"oppRank":24,"rank":41,"avg":40.2,"best":32,"worst":53,"nSources":6,"flags":[],"ou":41.5,"panic":2,"panicWhy":["Trending down: 5.0 PPG over his last 2 games"],"myRank":42,"tier":"F"},
+    "keon-coleman": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":10.4,"oppRank":15,"rank":43,"avg":42.5,"best":31,"worst":54,"nSources":6,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":43,"tier":"F"},
+    "tre-tucker": {"opp":"NE","oppLogo":"ne","home":false,"fppg":11.1,"oppRank":20,"rank":44,"avg":42.7,"best":34,"worst":49,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":44,"tier":"F"},
+    "wandale-robinson": {"opp":"HOU","oppLogo":"hou","home":true,"fppg":10.1,"oppRank":32,"rank":45,"avg":43.7,"best":39,"worst":50,"nSources":6,"flags":[],"ou":37.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":45,"tier":"F"},
+    "courtland-sutton": {"opp":"LAC","oppLogo":"lac","home":false,"fppg":4.4,"oppRank":18,"rank":46,"avg":44.7,"best":43,"worst":46,"nSources":6,"flags":[],"ou":42.5,"panic":4,"panicWhy":["Scoring 4.4 PPG; a WR46 usually scores about 8.3"],"myRank":46,"tier":"F"},
+    "dohnte-meyers": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":6.2,"oppRank":3,"rank":47,"avg":46.2,"best":32,"worst":62,"nSources":5,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 6.2 PPG; a WR47 usually scores about 7.9"],"myRank":47,"tier":"G"},
+    "chris-godwin": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":7.9,"oppRank":22,"rank":48,"avg":46.5,"best":36,"worst":57,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":48,"tier":"G"},
+    "tre-harris": {"opp":"DEN","oppLogo":"den","home":true,"fppg":8.5,"oppRank":9,"rank":49,"avg":46.8,"best":36,"worst":52,"nSources":5,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":49,"tier":"G"},
+    "kalif-raymond": {"opp":"GB","oppLogo":"gb","home":false,"fppg":12.3,"oppRank":17,"rank":50,"avg":48,"best":37,"worst":57,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":50,"tier":"G"},
+    "makai-lemon": {"opp":"JAX","oppLogo":"jax","home":false,"fppg":4,"oppRank":24,"rank":51,"avg":48.3,"best":38,"worst":74,"nSources":6,"flags":[],"ou":41.5,"panic":3,"panicWhy":["Scoring 4.0 PPG; a WR51 usually scores about 6.4"],"myRank":51,"tier":"G"},
+    "roman-wilson": {"opp":"IND","oppLogo":"ind","home":true,"fppg":11.2,"oppRank":21,"rank":56,"avg":53.5,"best":38,"worst":71,"nSources":6,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Snap share dropping: 31% last game vs 51% on the season"],"myRank":52,"tier":"G"},
+    "marvin-harrison": {"opp":"DET","oppLogo":"det","home":true,"fppg":4.9,"oppRank":31,"rank":52,"avg":49.8,"best":40,"worst":69,"nSources":4,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 4.9 PPG; a WR52 usually scores about 6.2"],"myRank":53,"tier":"G"},
+    "antonio-williams": {"opp":"NYG","oppLogo":"nyg","home":true,"fppg":7.6,"oppRank":16,"rank":53,"avg":52.8,"best":45,"worst":61,"nSources":4,"flags":[],"ou":43.5,"panic":2,"panicWhy":["Trending down: 4.3 PPG over his last 2 games"],"myRank":54,"tier":"G"},
+    "brian-thomas": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":6.4,"oppRank":23,"rank":54,"avg":53,"best":48,"worst":59,"nSources":4,"flags":[],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":55,"tier":"G"},
+    "quentin-johnston": {"opp":"DEN","oppLogo":"den","home":true,"fppg":4.5,"oppRank":9,"rank":57,"avg":55.8,"best":54,"worst":60,"nSources":4,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":56,"tier":"G"},
+    "ryan-flournoy": {"opp":"TB","oppLogo":"tb","home":true,"fppg":5.9,"oppRank":5,"rank":58,"avg":56.6,"best":50,"worst":61,"nSources":5,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":57,"tier":"G"},
+    "chris-bell": {"opp":"CIN","oppLogo":"cin","home":true,"fppg":3.6,"oppRank":12,"rank":59,"avg":57.4,"best":55,"worst":60,"nSources":5,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":58,"tier":"G"},
+    "rashid-shaheed": {"opp":"SF","oppLogo":"sf","home":true,"fppg":6,"oppRank":7,"rank":60,"avg":59.8,"best":47,"worst":67,"nSources":5,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":59,"tier":"G"},
+    "michael-pittman": {"opp":"IND","oppLogo":"ind","home":true,"fppg":5.3,"oppRank":21,"rank":55,"avg":53.4,"best":51,"worst":58,"nSources":5,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Trending down: 3.5 PPG over his last 2 games"],"myRank":60,"tier":"G"},
+    "trey-mcbride": {"opp":"DET","oppLogo":"det","home":true,"fppg":17.3,"oppRank":32,"rank":1,"avg":1,"best":1,"worst":1,"nSources":6,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Scoring 17.3 PPG; a TE1 usually scores about 24.1"],"myRank":1,"tier":"S"},
+    "brock-bowers": {"opp":"NE","oppLogo":"ne","home":false,"fppg":24.1,"oppRank":1,"rank":2,"avg":2,"best":2,"worst":2,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":2,"tier":"S"},
+    "george-kittle": {"opp":"SEA","oppLogo":"sea","home":false,"fppg":16.1,"oppRank":15,"rank":4,"avg":3.7,"best":3,"worst":4,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":3,"tier":"A"},
+    "sam-laporta": {"opp":"ARI","oppLogo":"ari","home":false,"fppg":14.2,"oppRank":30,"rank":3,"avg":3.3,"best":3,"worst":4,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 14.2 PPG; a TE3 usually scores about 16.1"],"myRank":4,"tier":"A"},
+    "tyler-warren": {"opp":"PIT","oppLogo":"pit","home":false,"fppg":12.1,"oppRank":9,"rank":5,"avg":5.8,"best":5,"worst":8,"nSources":6,"flags":[],"ou":44.5,"panic":2,"panicWhy":["Scoring 12.1 PPG; a TE5 usually scores about 14.2"],"myRank":5,"tier":"B"},
+    "isaiah-likely": {"opp":"WAS","oppLogo":"wsh","home":false,"fppg":13.3,"oppRank":28,"rank":6,"avg":6.2,"best":5,"worst":9,"nSources":6,"flags":[],"ou":43.5,"panic":2,"panicWhy":["Trending down: 8.4 PPG over his last 2 games"],"myRank":6,"tier":"B"},
+    "juwan-johnson": {"opp":"MIN","oppLogo":"min","home":true,"fppg":15,"oppRank":4,"rank":8,"avg":8.5,"best":6,"worst":10,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":7,"tier":"C"},
+    "tucker-kraft": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":9,"oppRank":3,"rank":7,"avg":7.5,"best":7,"worst":8,"nSources":6,"flags":[],"ou":45.5,"panic":3,"panicWhy":["Scoring 9.0 PPG; a TE7 usually scores about 12.6"],"myRank":8,"tier":"C"},
+    "dalton-kincaid": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":11.5,"oppRank":2,"rank":9,"avg":9,"best":6,"worst":13,"nSources":6,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Trending down: 2.8 PPG over his last 2 games"],"myRank":9,"tier":"C"},
+    "harold-fannin": {"opp":"NYJ","oppLogo":"nyj","home":false,"fppg":12.6,"oppRank":10,"rank":10,"avg":9.8,"best":7,"worst":12,"nSources":6,"flags":[],"ou":40.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":10,"tier":"D"},
+    "tj-hockenson": {"opp":"NO","oppLogo":"no","home":false,"fppg":11.9,"oppRank":25,"rank":12,"avg":11.5,"best":9,"worst":13,"nSources":6,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":11,"tier":"D"},
+    "colston-loveland": {"opp":"GB","oppLogo":"gb","home":false,"fppg":5,"oppRank":13,"rank":11,"avg":11.3,"best":8,"worst":16,"nSources":6,"flags":[],"ou":45.5,"panic":4,"panicWhy":["Scoring 5.0 PPG; a TE11 usually scores about 11.1"],"myRank":12,"tier":"D"},
+    "mike-gesicki": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":11.1,"oppRank":29,"rank":14,"avg":14.4,"best":11,"worst":23,"nSources":5,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":13,"tier":"E"},
+    "tyler-higbee": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":8.3,"oppRank":16,"rank":15,"avg":15.4,"best":12,"worst":18,"nSources":5,"flags":[],"ou":54.5,"panic":2,"panicWhy":["Scoring 8.3 PPG; a TE15 usually scores about 9.7"],"myRank":14,"tier":"E"},
+    "mark-andrews": {"opp":"ATL","oppLogo":"atl","home":false,"fppg":9.7,"oppRank":21,"rank":13,"avg":13.8,"best":12,"worst":16,"nSources":6,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":15,"tier":"F"},
+    "hunter-henry": {"opp":"LV","oppLogo":"lv","home":true,"fppg":6.3,"oppRank":24,"rank":16,"avg":16.5,"best":15,"worst":20,"nSources":6,"flags":[],"ou":45.5,"panic":3,"panicWhy":["Scoring 6.3 PPG; a TE16 usually scores about 9.7"],"myRank":16,"tier":"F"},
+    "kenyon-sadiq": {"opp":"CLE","oppLogo":"cle","home":true,"fppg":9.7,"oppRank":23,"rank":17,"avg":16.8,"best":14,"worst":22,"nSources":6,"flags":[],"ou":40.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":17,"tier":"F"},
+    "brenton-strange": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":9.2,"oppRank":5,"rank":19,"avg":18.5,"best":13,"worst":23,"nSources":6,"flags":[],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":18,"tier":"F"},
+    "jake-ferguson": {"opp":"TB","oppLogo":"tb","home":true,"fppg":9.1,"oppRank":26,"rank":18,"avg":18.3,"best":16,"worst":23,"nSources":6,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":19,"tier":"G"},
+    "pat-freiermuth": {"opp":"IND","oppLogo":"ind","home":true,"fppg":9.7,"oppRank":17,"rank":20,"avg":19.3,"best":16,"worst":20,"nSources":6,"flags":[],"ou":44.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":20,"tier":"G"},
+    "dalton-schultz": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":10.6,"oppRank":11,"rank":21,"avg":19.7,"best":17,"worst":21,"nSources":6,"flags":[],"ou":37.5,"panic":2,"panicWhy":["Trending down: 4.5 PPG over his last 2 games"],"myRank":21,"tier":"G"},
+    "aj-barner": {"opp":"SF","oppLogo":"sf","home":true,"fppg":6.3,"oppRank":6,"rank":22,"avg":22.2,"best":18,"worst":25,"nSources":5,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":22,"tier":"G"},
+    "michael-mayer": {"opp":"NE","oppLogo":"ne","home":false,"fppg":10.7,"oppRank":1,"rank":23,"avg":23,"best":17,"worst":27,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":23,"tier":"G"},
+    "kyle-pitts": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":2.9,"oppRank":12,"rank":24,"avg":23,"best":22,"worst":24,"nSources":6,"flags":[],"ou":43.5,"panic":4,"panicWhy":["Scoring 2.9 PPG; a TE24 usually scores about 5.0"],"myRank":24,"tier":"G"},
+    "cade-otton": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":7.7,"oppRank":19,"rank":25,"avg":23,"best":18,"worst":27,"nSources":5,"flags":[],"ou":47.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":25,"tier":"G"},
+    "brandon-aubrey": {"opp":"TB","oppLogo":"tb","home":true,"fppg":10.3,"oppRank":32,"rank":1,"avg":1.2,"best":1,"worst":2,"nSources":5,"flags":["FPPG sources differ: 10.3 (FantasyPros) vs 9.2 (Sleeper)"],"ou":47.5,"panic":2,"panicWhy":["Scoring 10.3 PPG; a K1 usually scores about 13.5"],"myRank":1,"tier":"S"},
+    "kaimi-fairbairn": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":9.3,"oppRank":25,"rank":2,"avg":3,"best":2,"worst":4,"nSources":5,"flags":[],"ou":37.5,"panic":3,"panicWhy":["Scoring 9.3 PPG; a K2 usually scores about 13.0"],"myRank":2,"tier":"A"},
+    "will-reichard": {"opp":"NO","oppLogo":"no","home":false,"fppg":13,"oppRank":18,"rank":3,"avg":3.8,"best":2,"worst":6,"nSources":5,"flags":[],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":3,"tier":"B"},
+    "evan-mcpherson": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":11.8,"oppRank":22,"rank":4,"avg":4.8,"best":2,"worst":9,"nSources":5,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Trending down: 8.0 PPG over his last 2 games"],"myRank":4,"tier":"C"},
+    "cam-little": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":9.8,"oppRank":10,"rank":5,"avg":5.2,"best":3,"worst":7,"nSources":5,"flags":["FPPG sources differ: 9.8 (FantasyPros) vs 9.2 (Sleeper)"],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":5,"tier":"C"},
+    "spencer-shrader": {"opp":"PIT","oppLogo":"pit","home":false,"fppg":13.5,"oppRank":23,"rank":6,"avg":6,"best":1,"worst":12,"nSources":5,"flags":[],"ou":44.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":6,"tier":"D"},
+    "jake-bates": {"opp":"ARI","oppLogo":"ari","home":false,"fppg":9.8,"oppRank":11,"rank":7,"avg":6.4,"best":5,"worst":8,"nSources":5,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":7,"tier":"D"},
+    "jason-myers": {"opp":"SF","oppLogo":"sf","home":true,"fppg":7.3,"oppRank":14,"rank":8,"avg":7.2,"best":5,"worst":9,"nSources":5,"flags":[],"ou":45.5,"panic":3,"panicWhy":["Scoring 7.3 PPG; a K8 usually scores about 9.8"],"myRank":8,"tier":"D"},
+    "tyler-loop": {"opp":"ATL","oppLogo":"atl","home":false,"fppg":10,"oppRank":6,"rank":9,"avg":11.4,"best":8,"worst":19,"nSources":5,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":9,"tier":"E"},
+    "harrison-mevis": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":7,"oppRank":9,"rank":10,"avg":11.8,"best":6,"worst":15,"nSources":5,"flags":[],"ou":54.5,"panic":3,"panicWhy":["Scoring 7.0 PPG; a K10 usually scores about 9.8"],"myRank":10,"tier":"E"},
+    "chris-boswell": {"opp":"IND","oppLogo":"ind","home":true,"fppg":7.8,"oppRank":27,"rank":11,"avg":12.2,"best":11,"worst":15,"nSources":5,"flags":["FPPG sources differ: 7.8 (FantasyPros) vs 7.0 (Sleeper)"],"ou":44.5,"panic":2,"panicWhy":["Scoring 7.8 PPG; a K11 usually scores about 9.5"],"myRank":11,"tier":"E"},
+    "eddy-pineiro": {"opp":"SEA","oppLogo":"sea","home":false,"fppg":7.5,"oppRank":13,"rank":12,"avg":12.4,"best":8,"worst":21,"nSources":5,"flags":["FPPG sources differ: 7.5 (FantasyPros) vs 6.5 (Sleeper)"],"ou":45.5,"panic":2,"panicWhy":["Scoring 7.5 PPG; a K12 usually scores about 9.3"],"myRank":12,"tier":"E"},
+    "cairo-santos": {"opp":"GB","oppLogo":"gb","home":false,"fppg":9.5,"oppRank":7,"rank":13,"avg":13,"best":10,"worst":17,"nSources":5,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":13,"tier":"E"},
+    "tyler-bass": {"opp":"LAR","oppLogo":"lar","home":false,"fppg":8,"oppRank":12,"rank":14,"avg":15.2,"best":12,"worst":22,"nSources":4,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":14,"tier":"F"},
+    "trey-smack": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":7.5,"oppRank":4,"rank":15,"avg":15.5,"best":10,"worst":18,"nSources":4,"flags":[],"ou":45.5,"panic":2,"panicWhy":["Trending down: 4.0 PPG over his last 2 games"],"myRank":15,"tier":"F"},
+    "matt-gay": {"opp":"NE","oppLogo":"ne","home":false,"fppg":11.5,"oppRank":5,"rank":16,"avg":16,"best":13,"worst":22,"nSources":4,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":16,"tier":"F"},
+    "nick-folk": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":8.3,"oppRank":17,"rank":17,"avg":17.6,"best":9,"worst":22,"nSources":5,"flags":["FPPG sources differ: 8.3 (FantasyPros) vs 7.5 (Sleeper)"],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":17,"tier":"G"},
+    "chad-ryland": {"opp":"DET","oppLogo":"det","home":true,"fppg":9.8,"oppRank":3,"rank":18,"avg":17.6,"best":10,"worst":24,"nSources":5,"flags":[],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":18,"tier":"G"},
+    "daniel-carlson": {"opp":"MIN","oppLogo":"min","home":true,"fppg":7,"oppRank":16,"rank":19,"avg":17.6,"best":15,"worst":21,"nSources":5,"flags":["FPPG sources differ: 7.0 (FantasyPros) vs 6.2 (Sleeper)"],"ou":42.5,"panic":2,"panicWhy":["Trending down: 3.5 PPG over his last 2 games"],"myRank":19,"tier":"G"},
+    "chase-mclaughlin": {"opp":"DAL","oppLogo":"dal","home":false,"fppg":10.3,"oppRank":24,"rank":20,"avg":18.2,"best":16,"worst":21,"nSources":4,"flags":[],"ou":47.5,"panic":2,"panicWhy":["Trending down: 7.0 PPG over his last 2 games"],"myRank":20,"tier":"G"},
+    "dst-min": {"opp":"NO","oppLogo":"no","home":false,"fppg":12.5,"oppRank":25,"rank":1,"avg":2.8,"best":1,"worst":7,"nSources":6,"flags":["FPPG sources differ: 12.5 (FantasyPros) vs 13.5 (Sleeper)"],"ou":42.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":1,"tier":"S"},
+    "dst-hou": {"opp":"TEN","oppLogo":"ten","home":false,"fppg":4.8,"oppRank":19,"rank":2,"avg":4,"best":1,"worst":16,"nSources":6,"flags":["FPPG sources differ: 4.8 (FantasyPros) vs 5.5 (Sleeper)"],"ou":37.5,"panic":4,"panicWhy":["Scoring 4.8 PPG; a DST2 usually scores about 9.8"],"myRank":2,"tier":"A"},
+    "dst-pit": {"opp":"IND","oppLogo":"ind","home":true,"fppg":9.3,"oppRank":17,"rank":3,"avg":6,"best":2,"worst":13,"nSources":6,"flags":["FPPG sources differ: 9.3 (FantasyPros) vs 10.8 (Sleeper)"],"ou":44.5,"panic":2,"panicWhy":["Trending down: 6.5 PPG over his last 2 games"],"myRank":3,"tier":"B"},
+    "dst-cin": {"opp":"MIA","oppLogo":"mia","home":false,"fppg":9,"oppRank":29,"rank":4,"avg":6.7,"best":2,"worst":20,"nSources":6,"flags":["FPPG sources differ: 9.0 (FantasyPros) vs 10.2 (Sleeper)"],"ou":42.5,"panic":2,"panicWhy":["Trending down: 4.0 PPG over his last 2 games"],"myRank":4,"tier":"B"},
+    "dst-den": {"opp":"LAC","oppLogo":"lac","home":false,"fppg":6.8,"oppRank":30,"rank":5,"avg":7.7,"best":3,"worst":23,"nSources":6,"flags":[],"ou":42.5,"panic":2,"panicWhy":["Scoring 6.8 PPG; a DST5 usually scores about 8.8"],"myRank":5,"tier":"C"},
+    "dst-jax": {"opp":"PHI","oppLogo":"phi","home":true,"fppg":9.8,"oppRank":21,"rank":6,"avg":8.2,"best":2,"worst":28,"nSources":6,"flags":["FPPG sources differ: 9.8 (FantasyPros) vs 10.8 (Sleeper)"],"ou":41.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":6,"tier":"C"},
+    "dst-dal": {"opp":"TB","oppLogo":"tb","home":true,"fppg":1.5,"oppRank":32,"rank":7,"avg":9,"best":3,"worst":24,"nSources":6,"flags":["FPPG sources differ: 1.5 (FantasyPros) vs 3.0 (Sleeper)"],"ou":47.5,"panic":6,"panicWhy":["Scoring 1.5 PPG; a DST7 usually scores about 7.8","Trending down: 0.0 PPG over his last 2 games"],"myRank":7,"tier":"D"},
+    "dst-cle": {"opp":"NYJ","oppLogo":"nyj","home":false,"fppg":5.3,"oppRank":11,"rank":8,"avg":9.3,"best":7,"worst":11,"nSources":6,"flags":[],"ou":40.5,"panic":3,"panicWhy":["Scoring 5.3 PPG; a DST8 usually scores about 7.3"],"myRank":8,"tier":"D"},
+    "dst-chi": {"opp":"GB","oppLogo":"gb","home":false,"fppg":8,"oppRank":23,"rank":9,"avg":10.2,"best":8,"worst":12,"nSources":6,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":9,"tier":"D"},
+    "dst-sea": {"opp":"SF","oppLogo":"sf","home":true,"fppg":8.8,"oppRank":1,"rank":10,"avg":10.8,"best":5,"worst":17,"nSources":5,"flags":[],"ou":45.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":10,"tier":"D"},
+    "dst-bal": {"opp":"ATL","oppLogo":"atl","home":false,"fppg":4.8,"oppRank":27,"rank":11,"avg":12,"best":2,"worst":20,"nSources":6,"flags":["FPPG sources differ: 4.8 (FantasyPros) vs 5.8 (Sleeper)"],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":11,"tier":"E"},
+    "dst-ne": {"opp":"LV","oppLogo":"lv","home":true,"fppg":7.8,"oppRank":7,"rank":12,"avg":13.5,"best":8,"worst":30,"nSources":6,"flags":["FPPG sources differ: 7.8 (FantasyPros) vs 8.5 (Sleeper)"],"ou":45.5,"panic":2,"panicWhy":["Trending down: 2.5 PPG over his last 2 games"],"myRank":12,"tier":"E"},
+    "dst-nyj": {"opp":"CLE","oppLogo":"cle","home":true,"fppg":5.3,"oppRank":20,"rank":13,"avg":14,"best":6,"worst":23,"nSources":6,"flags":["FPPG sources differ: 5.3 (FantasyPros) vs 6.5 (Sleeper)"],"ou":40.5,"panic":2,"panicWhy":["Trending down: 3.5 PPG over his last 2 games"],"myRank":13,"tier":"E"},
+    "dst-was": {"opp":"NYG","oppLogo":"nyg","home":true,"fppg":4.3,"oppRank":26,"rank":14,"avg":15.2,"best":9,"worst":25,"nSources":6,"flags":["FPPG sources differ: 4.3 (FantasyPros) vs 5.0 (Sleeper)"],"ou":43.5,"panic":2,"panicWhy":["Scoring 4.3 PPG; a DST14 usually scores about 4.8"],"myRank":14,"tier":"F"},
+    "dst-no": {"opp":"MIN","oppLogo":"min","home":true,"fppg":2,"oppRank":9,"rank":15,"avg":15.8,"best":14,"worst":20,"nSources":6,"flags":[],"ou":42.5,"panic":5,"panicWhy":["Scoring 2.0 PPG; a DST15 usually scores about 4.3","Trending down: -0.5 PPG over his last 2 games"],"myRank":15,"tier":"F"},
+    "dst-gb": {"opp":"CHI","oppLogo":"chi","home":true,"fppg":3,"oppRank":16,"rank":16,"avg":16,"best":3,"worst":26,"nSources":4,"flags":[],"ou":45.5,"panic":2,"panicWhy":["Scoring 3.0 PPG; a DST16 usually scores about 4.0"],"myRank":16,"tier":"F"},
+    "dst-ind": {"opp":"PIT","oppLogo":"pit","home":false,"fppg":3.3,"oppRank":28,"rank":17,"avg":16.8,"best":12,"worst":22,"nSources":6,"flags":[],"ou":44.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":17,"tier":"G"},
+    "dst-atl": {"opp":"BAL","oppLogo":"bal","home":true,"fppg":4,"oppRank":4,"rank":18,"avg":17.6,"best":8,"worst":26,"nSources":5,"flags":["FPPG sources differ: 4.0 (FantasyPros) vs 4.8 (Sleeper)"],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":18,"tier":"G"},
+    "dst-nyg": {"opp":"WAS","oppLogo":"wsh","home":false,"fppg":7.3,"oppRank":10,"rank":19,"avg":17.8,"best":15,"worst":22,"nSources":5,"flags":[],"ou":43.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":19,"tier":"G"},
+    "dst-lar": {"opp":"BUF","oppLogo":"buf","home":true,"fppg":5.3,"oppRank":12,"rank":20,"avg":18.8,"best":9,"worst":24,"nSources":5,"flags":["FPPG sources differ: 5.3 (FantasyPros) vs 6.0 (Sleeper)"],"ou":54.5,"panic":1,"panicWhy":["Producing at or above his ranking, healthy"],"myRank":20,"tier":"G"}
   }
 }
