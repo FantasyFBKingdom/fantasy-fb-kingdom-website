@@ -1,0 +1,295 @@
+{
+  "_note": "SAMPLE DATA - replace before publishing",
+  "updated": "",
+  "sources": [],
+  "week": 5,
+  "eyebrow": "Week 5 · Updated Tuesday",
+  "title": "Week 5 Rankings",
+  "games": [
+    {"away": "BUF", "home": "LAR", "ou": 54.5},
+    {"away": "CIN", "home": "BAL", "ou": 47.5},
+    {"away": "NYG", "home": "WAS", "ou": 43.5},
+    {"away": "PHI", "home": "DEN", "ou": 42.0},
+    {"away": "KC", "home": "CAR", "ou": 44.0},
+    {"away": "DET", "home": "ARI", "ou": 54.5},
+    {"away": "LV", "home": "NE", "ou": 45.5},
+    {"away": "CHI", "home": "GB", "ou": 45.5},
+    {"away": "JAX", "home": "HOU", "ou": 44.5},
+    {"away": "PIT", "home": "CLE", "ou": 38.5},
+    {"away": "ATL", "home": "TB", "ou": 47.0},
+    {"away": "MIN", "home": "DAL", "ou": 48.5},
+    {"away": "IND", "home": "TEN", "ou": 41.5},
+    {"away": "SF", "home": "LAC", "ou": 45.0},
+    {"away": "MIA", "home": "NYJ", "ou": 43.0}
+  ],
+  "positions": {
+    "QB": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "josh-allen", "fppg": 24.8, "oppDefRank": 22},
+            {"id": "lamar-jackson", "fppg": 23.9, "oppDefRank": 18}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "jayden-daniels", "fppg": 22.5, "oppDefRank": 27},
+            {"id": "jalen-hurts", "fppg": 21.2, "oppDefRank": 6},
+            {"id": "joe-burrow", "fppg": 21.7, "oppDefRank": 10}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "patrick-mahomes", "fppg": 20.1, "oppDefRank": 25},
+            {"id": "jared-goff", "fppg": 19.4, "oppDefRank": 29},
+            {"id": "drake-maye", "fppg": 18.9, "oppDefRank": 20}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "bo-nix", "fppg": 18.1, "oppDefRank": 5},
+            {"id": "jordan-love", "fppg": 17.8, "oppDefRank": 14},
+            {"id": "caleb-williams", "fppg": 17.0, "oppDefRank": 12}
+          ]
+        },
+        {
+          "tier": "D",
+          "players": [
+            {"id": "cj-stroud", "fppg": 16.2, "oppDefRank": 3}
+          ]
+        }
+      ]
+    },
+    "RB": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "bijan-robinson", "fppg": 22.4, "oppDefRank": 24},
+            {"id": "jahmyr-gibbs", "fppg": 21.0, "oppDefRank": 27}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "christian-mccaffrey", "fppg": 19.8, "oppDefRank": 15},
+            {"id": "devon-achane", "fppg": 18.2, "oppDefRank": 21},
+            {"id": "saquon-barkley", "fppg": 17.6, "oppDefRank": 5}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "derrick-henry", "fppg": 16.4, "oppDefRank": 28},
+            {"id": "jonathan-taylor", "fppg": 16.0, "oppDefRank": 26},
+            {"id": "james-cook", "fppg": 15.1, "oppDefRank": 18}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "kyren-williams", "fppg": 13.8, "oppDefRank": 13},
+            {"id": "ashton-jeanty", "fppg": 13.2, "oppDefRank": 10},
+            {"id": "bucky-irving", "fppg": 13.1, "oppDefRank": 17},
+            {"id": "chase-brown", "fppg": 12.9, "oppDefRank": 6}
+          ]
+        },
+        {
+          "tier": "D",
+          "players": [
+            {"id": "quinshon-judkins", "fppg": 11.8, "oppDefRank": 9},
+            {"id": "jaylen-warren", "fppg": 11.2, "oppDefRank": 19}
+          ]
+        }
+      ]
+    },
+    "WR": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "jamarr-chase", "fppg": 22.8, "oppDefRank": 23},
+            {"id": "justin-jefferson", "fppg": 20.4, "oppDefRank": 25}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "puka-nacua", "fppg": 19.6, "oppDefRank": 12},
+            {"id": "amon-ra-st-brown", "fppg": 18.9, "oppDefRank": 29},
+            {"id": "ceedee-lamb", "fppg": 18.0, "oppDefRank": 8}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "malik-nabers", "fppg": 16.9, "oppDefRank": 20},
+            {"id": "nico-collins", "fppg": 16.1, "oppDefRank": 17},
+            {"id": "brian-thomas-jr", "fppg": 14.6, "oppDefRank": 11}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "drake-london", "fppg": 14.1, "oppDefRank": 26},
+            {"id": "aj-brown", "fppg": 13.4, "oppDefRank": 4},
+            {"id": "courtland-sutton", "fppg": 12.5, "oppDefRank": 14}
+          ]
+        },
+        {
+          "tier": "D",
+          "players": [
+            {"id": "marvin-harrison-jr", "fppg": 11.3, "oppDefRank": 21},
+            {"id": "denzel-boston", "fppg": 10.8, "oppDefRank": 7},
+            {"id": "dk-metcalf", "fppg": 9.9, "oppDefRank": 23}
+          ]
+        }
+      ]
+    },
+    "TE": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "brock-bowers", "fppg": 15.9, "oppDefRank": 16}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "trey-mcbride", "fppg": 14.8, "oppDefRank": 22},
+            {"id": "george-kittle", "fppg": 13.2, "oppDefRank": 19}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "sam-laporta", "fppg": 12.4, "oppDefRank": 30},
+            {"id": "travis-kelce", "fppg": 11.5, "oppDefRank": 24}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "tucker-kraft", "fppg": 10.1, "oppDefRank": 11},
+            {"id": "dalton-kincaid", "fppg": 9.6, "oppDefRank": 14}
+          ]
+        },
+        {
+          "tier": "D",
+          "players": [
+            {"id": "mark-andrews", "fppg": 8.4, "oppDefRank": 28}
+          ]
+        }
+      ]
+    },
+    "FLEX": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "jamarr-chase", "fppg": 22.8, "oppDefRank": 23},
+            {"id": "bijan-robinson", "fppg": 22.4, "oppDefRank": 24},
+            {"id": "jahmyr-gibbs", "fppg": 21.0, "oppDefRank": 27}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "justin-jefferson", "fppg": 20.4, "oppDefRank": 25},
+            {"id": "christian-mccaffrey", "fppg": 19.8, "oppDefRank": 15},
+            {"id": "puka-nacua", "fppg": 19.6, "oppDefRank": 12}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "amon-ra-st-brown", "fppg": 18.9, "oppDefRank": 29},
+            {"id": "devon-achane", "fppg": 18.2, "oppDefRank": 21},
+            {"id": "saquon-barkley", "fppg": 17.6, "oppDefRank": 5},
+            {"id": "brock-bowers", "fppg": 15.9, "oppDefRank": 16}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "ceedee-lamb", "fppg": 18.0, "oppDefRank": 8},
+            {"id": "malik-nabers", "fppg": 16.9, "oppDefRank": 20},
+            {"id": "derrick-henry", "fppg": 16.4, "oppDefRank": 28}
+          ]
+        },
+        {
+          "tier": "D",
+          "players": [
+            {"id": "jonathan-taylor", "fppg": 16.0, "oppDefRank": 26},
+            {"id": "nico-collins", "fppg": 16.1, "oppDefRank": 17}
+          ]
+        }
+      ]
+    },
+    "K": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "brandon-aubrey", "fppg": 10.8, "oppDefRank": 20}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "cameron-dicker", "fppg": 9.6, "oppDefRank": 22},
+            {"id": "jake-bates", "fppg": 9.4, "oppDefRank": 26}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "kaimi-fairbairn", "fppg": 8.9, "oppDefRank": 14},
+            {"id": "tyler-bass", "fppg": 8.5, "oppDefRank": 10}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "chris-boswell", "fppg": 7.6, "oppDefRank": 3}
+          ]
+        }
+      ]
+    },
+    "DST": {
+      "tiers": [
+        {
+          "tier": "S",
+          "players": [
+            {"id": "dst-pit", "fppg": 9.8, "oppDefRank": 27}
+          ]
+        },
+        {
+          "tier": "A",
+          "players": [
+            {"id": "dst-hou", "fppg": 8.8, "oppDefRank": 24},
+            {"id": "dst-phi", "fppg": 8.4, "oppDefRank": 20}
+          ]
+        },
+        {
+          "tier": "B",
+          "players": [
+            {"id": "dst-bal", "fppg": 7.9, "oppDefRank": 12},
+            {"id": "dst-den", "fppg": 7.2, "oppDefRank": 6}
+          ]
+        },
+        {
+          "tier": "C",
+          "players": [
+            {"id": "dst-min", "fppg": 6.1, "oppDefRank": 9}
+          ]
+        }
+      ]
+    }
+  }
+}

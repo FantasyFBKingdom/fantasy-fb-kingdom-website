@@ -1,0 +1,290 @@
+{
+  "lamar-jackson": {
+    "first": "Lamar",
+    "last": "Jackson",
+    "pos": "QB",
+    "team": "BAL",
+    "status": "N/A",
+    "height": "6'2\"",
+    "weight": 215,
+    "age": 29,
+    "panic": {"score": 2},
+    "lastSeason": {"year": 2025, "ppg": 23.6, "total": 330.4},
+    "tiles": [
+      {"label": "Comp %", "value": "62.2%", "rank": 16, "of": 32},
+      {"label": "Yds / Att", "value": "8.2", "rank": 6, "of": 32},
+      {"label": "Pass Yds / G", "value": "303", "rank": 13, "of": 32},
+      {"label": "TD : INT", "value": "12 : 5", "note": "Season total", "bar": 0.7},
+      {"label": "Rush Yds", "value": "134", "rank": 6, "of": 32},
+      {"label": "Pressure %", "value": "18%", "note": "Dropbacks under pressure", "bar": 0.18}
+    ],
+    "volume": {
+      "label": "Pass attempts by week",
+      "weeks": [39, 36, 42, 31]
+    },
+    "gameLog": {
+      "columns": ["CMP", "ATT", "YDS", "TD", "INT", "RUSH", "RTD"],
+      "games": [
+        {
+          "wk": 1,
+          "opp": "@ CHI",
+          "result": "W 31-12",
+          "stats": [27, 39, 431, 4, 2, 19, 0],
+          "fpts": 31.1
+        },
+        {
+          "wk": 2,
+          "opp": "@ DET",
+          "result": "W 32-14",
+          "stats": [21, 36, 140, 3, 1, 45, 0],
+          "fpts": 20.1
+        },
+        {
+          "wk": 3,
+          "opp": "@ PHI",
+          "result": "W 21-19",
+          "stats": [25, 42, 403, 1, 2, 41, 0],
+          "fpts": 20.2
+        },
+        {
+          "wk": 4,
+          "opp": "@ NYG",
+          "result": "W 37-22",
+          "stats": [19, 31, 237, 4, 0, 29, 0],
+          "fpts": 28.4
+        }
+      ]
+    },
+    "redZone": {
+      "title": "Red Zone Passing",
+      "stats": [
+        {"label": "RZ attempts", "value": 18},
+        {"label": "RZ TD passes", "value": 8},
+        {"label": "Inside-10 att", "value": 5}
+      ],
+      "pct": {"label": "Red zone completion %", "value": 56}
+    },
+    "upcoming": [
+      {"wk": 5, "opp": "vs CIN", "rank": 18},
+      {"wk": 6, "opp": "@ IND", "rank": 19},
+      {"wk": 7, "opp": "@ NE", "rank": 17},
+      {"wk": 8, "opp": "vs NYG", "rank": 11},
+      {"wk": 9, "opp": "@ NO", "rank": 21}
+    ]
+  },
+  "josh-allen": {"first": "Josh", "last": "Allen", "pos": "QB", "team": "BUF", "status": "Active"},
+  "jayden-daniels": {"first": "Jayden", "last": "Daniels", "pos": "QB", "team": "WAS", "status": "Active"},
+  "jalen-hurts": {"first": "Jalen", "last": "Hurts", "pos": "QB", "team": "PHI", "status": "Active"},
+  "joe-burrow": {"first": "Joe", "last": "Burrow", "pos": "QB", "team": "CIN", "status": "Active"},
+  "patrick-mahomes": {"first": "Patrick", "last": "Mahomes", "pos": "QB", "team": "KC", "status": "Active"},
+  "jared-goff": {"first": "Jared", "last": "Goff", "pos": "QB", "team": "DET", "status": "Active"},
+  "drake-maye": {"first": "Drake", "last": "Maye", "pos": "QB", "team": "NE", "status": "Active"},
+  "jordan-love": {"first": "Jordan", "last": "Love", "pos": "QB", "team": "GB", "status": "Active"},
+  "bo-nix": {"first": "Bo", "last": "Nix", "pos": "QB", "team": "DEN", "status": "Active"},
+  "caleb-williams": {"first": "Caleb", "last": "Williams", "pos": "QB", "team": "CHI", "status": "Active"},
+  "cj-stroud": {"first": "C.J.", "last": "Stroud", "pos": "QB", "team": "HOU", "status": "Active"},
+  "aaron-rodgers": {"first": "Aaron", "last": "Rodgers", "pos": "QB", "team": "PIT", "status": "Active"},
+  "shedeur-sanders": {"first": "Shedeur", "last": "Sanders", "pos": "QB", "team": "CLE", "status": "Active"},
+  "kyler-murray": {"first": "Kyler", "last": "Murray", "pos": "QB", "team": "ARI", "status": "Active"},
+  "matthew-stafford": {"first": "Matthew", "last": "Stafford", "pos": "QB", "team": "LAR", "status": "Active"},
+  "bijan-robinson": {
+    "first": "Bijan",
+    "last": "Robinson",
+    "pos": "RB",
+    "team": "ATL",
+    "status": "Active",
+    "height": "5'11\"",
+    "weight": 215,
+    "age": 24,
+    "panic": {"score": 1},
+    "lastSeason": {"year": 2025, "ppg": 20.9, "total": 355.3},
+    "tiles": [
+      {"label": "Rush Yds / G", "value": "88.5", "rank": 3, "of": 32},
+      {"label": "Yds / Carry", "value": "5.1", "rank": 5, "of": 32},
+      {"label": "Snap %", "value": "78%", "rank": 2, "of": 32},
+      {"label": "Targets / G", "value": "5.8", "rank": 4, "of": 32},
+      {"label": "Total TDs", "value": "5", "note": "Season total", "bar": 0.6}
+    ],
+    "volume": {
+      "label": "Touches by week",
+      "weeks": [22, 25, 19, 24]
+    },
+    "gameLog": {
+      "columns": ["ATT", "RUSH YDS", "RTD", "TGT", "REC", "REC YDS", "RECTD"],
+      "games": [
+        {
+          "wk": 1,
+          "opp": "vs TB",
+          "result": "L 20-23",
+          "stats": [17, 92, 1, 6, 5, 41, 0],
+          "fpts": 24.3
+        },
+        {
+          "wk": 2,
+          "opp": "@ MIN",
+          "result": "W 24-17",
+          "stats": [20, 104, 1, 5, 5, 28, 0],
+          "fpts": 24.2
+        },
+        {
+          "wk": 3,
+          "opp": "@ CAR",
+          "result": "L 13-27",
+          "stats": [14, 61, 0, 7, 5, 38, 0],
+          "fpts": 14.9
+        },
+        {
+          "wk": 4,
+          "opp": "vs WAS",
+          "result": "W 30-21",
+          "stats": [19, 97, 2, 5, 5, 22, 0],
+          "fpts": 28.9
+        }
+      ]
+    },
+    "redZone": {
+      "title": "Red Zone Rushing",
+      "stats": [
+        {"label": "RZ carries", "value": 14},
+        {"label": "RZ TDs", "value": 4},
+        {"label": "Inside-5 car", "value": 6}
+      ],
+      "pct": {"label": "Team RZ carry share", "value": 71}
+    },
+    "upcoming": [
+      {"wk": 5, "opp": "@ TB", "rank": 24},
+      {"wk": 6, "opp": "vs SF", "rank": 14},
+      {"wk": 7, "opp": "@ MIA", "rank": 28},
+      {"wk": 8, "opp": "vs CAR", "rank": 26},
+      {"wk": 9, "opp": "@ NO", "rank": 22}
+    ]
+  },
+  "jahmyr-gibbs": {"first": "Jahmyr", "last": "Gibbs", "pos": "RB", "team": "DET", "status": "Active"},
+  "saquon-barkley": {"first": "Saquon", "last": "Barkley", "pos": "RB", "team": "PHI", "status": "Active"},
+  "christian-mccaffrey": {"first": "Christian", "last": "McCaffrey", "pos": "RB", "team": "SF", "status": "Active"},
+  "devon-achane": {"first": "De'Von", "last": "Achane", "pos": "RB", "team": "MIA", "status": "Active"},
+  "derrick-henry": {"first": "Derrick", "last": "Henry", "pos": "RB", "team": "BAL", "status": "Active"},
+  "jonathan-taylor": {"first": "Jonathan", "last": "Taylor", "pos": "RB", "team": "IND", "status": "Active"},
+  "ashton-jeanty": {"first": "Ashton", "last": "Jeanty", "pos": "RB", "team": "LV", "status": "Active"},
+  "bucky-irving": {"first": "Bucky", "last": "Irving", "pos": "RB", "team": "TB", "status": "Active"},
+  "kyren-williams": {"first": "Kyren", "last": "Williams", "pos": "RB", "team": "LAR", "status": "Active"},
+  "chase-brown": {"first": "Chase", "last": "Brown", "pos": "RB", "team": "CIN", "status": "Active"},
+  "james-cook": {"first": "James", "last": "Cook", "pos": "RB", "team": "BUF", "status": "Active"},
+  "jaylen-warren": {"first": "Jaylen", "last": "Warren", "pos": "RB", "team": "PIT", "status": "Active"},
+  "quinshon-judkins": {"first": "Quinshon", "last": "Judkins", "pos": "RB", "team": "CLE", "status": "Active"},
+  "james-conner": {"first": "James", "last": "Conner", "pos": "RB", "team": "ARI", "status": "Active"},
+  "rj-harvey": {"first": "RJ", "last": "Harvey", "pos": "RB", "team": "DEN", "status": "Active"},
+  "jamarr-chase": {
+    "first": "Ja'Marr",
+    "last": "Chase",
+    "pos": "WR",
+    "team": "CIN",
+    "status": "Active",
+    "height": "6'0\"",
+    "weight": 201,
+    "age": 26,
+    "panic": {"score": 3},
+    "lastSeason": {"year": 2025, "ppg": 21.4, "total": 363.8},
+    "tiles": [
+      {"label": "Targets / G", "value": "10.3", "rank": 2, "of": 32},
+      {"label": "Rec Yds / G", "value": "96.0", "rank": 3, "of": 32},
+      {"label": "Target share", "value": "29%", "rank": 4, "of": 32},
+      {"label": "Catch %", "value": "68%", "rank": 18, "of": 32},
+      {"label": "Rec TDs", "value": "3", "note": "Season total", "bar": 0.5}
+    ],
+    "volume": {
+      "label": "Targets by week",
+      "weeks": [12, 9, 11, 9]
+    },
+    "gameLog": {
+      "columns": ["TGT", "REC", "YDS", "TD", "RUSH", "RTD"],
+      "games": [
+        {
+          "wk": 1,
+          "opp": "@ CLE",
+          "result": "W 27-24",
+          "stats": [12, 9, 121, 1, 0, 0],
+          "fpts": 27.1
+        },
+        {
+          "wk": 2,
+          "opp": "vs JAX",
+          "result": "L 20-26",
+          "stats": [9, 6, 74, 0, 0, 0],
+          "fpts": 13.4
+        },
+        {
+          "wk": 3,
+          "opp": "@ MIN",
+          "result": "W 31-28",
+          "stats": [11, 8, 112, 2, 4, 0],
+          "fpts": 31.6
+        },
+        {
+          "wk": 4,
+          "opp": "vs DEN",
+          "result": "L 17-24",
+          "stats": [9, 5, 77, 0, 0, 0],
+          "fpts": 12.7
+        }
+      ]
+    },
+    "redZone": {
+      "title": "Red Zone Receiving",
+      "stats": [
+        {"label": "RZ targets", "value": 7},
+        {"label": "RZ TDs", "value": 3},
+        {"label": "End-zone tgt", "value": 4}
+      ],
+      "pct": {"label": "Red zone catch %", "value": 57}
+    },
+    "upcoming": [
+      {"wk": 5, "opp": "@ BAL", "rank": 23},
+      {"wk": 6, "opp": "vs GB", "rank": 15},
+      {"wk": 7, "opp": "vs PIT", "rank": 9},
+      {"wk": 8, "opp": "@ NYJ", "rank": 12},
+      {"wk": 9, "opp": "vs CHI", "rank": 27}
+    ]
+  },
+  "justin-jefferson": {"first": "Justin", "last": "Jefferson", "pos": "WR", "team": "MIN", "status": "Active"},
+  "puka-nacua": {"first": "Puka", "last": "Nacua", "pos": "WR", "team": "LAR", "status": "Active"},
+  "ceedee-lamb": {"first": "CeeDee", "last": "Lamb", "pos": "WR", "team": "DAL", "status": "Active"},
+  "amon-ra-st-brown": {"first": "Amon-Ra", "last": "St. Brown", "pos": "WR", "team": "DET", "status": "Active"},
+  "malik-nabers": {"first": "Malik", "last": "Nabers", "pos": "WR", "team": "NYG", "status": "Active"},
+  "nico-collins": {"first": "Nico", "last": "Collins", "pos": "WR", "team": "HOU", "status": "Active"},
+  "brian-thomas-jr": {"first": "Brian", "last": "Thomas Jr.", "pos": "WR", "team": "JAX", "status": "Active"},
+  "aj-brown": {"first": "A.J.", "last": "Brown", "pos": "WR", "team": "PHI", "status": "Active"},
+  "drake-london": {"first": "Drake", "last": "London", "pos": "WR", "team": "ATL", "status": "Active"},
+  "courtland-sutton": {"first": "Courtland", "last": "Sutton", "pos": "WR", "team": "DEN", "status": "Active"},
+  "dk-metcalf": {"first": "DK", "last": "Metcalf", "pos": "WR", "team": "PIT", "status": "Active"},
+  "michael-pittman-jr": {"first": "Michael", "last": "Pittman Jr.", "pos": "WR", "team": "PIT", "status": "Active"},
+  "denzel-boston": {"first": "Denzel", "last": "Boston", "pos": "WR", "team": "CLE", "status": "Active"},
+  "kc-concepcion": {"first": "KC", "last": "Concepcion", "pos": "WR", "team": "CLE", "status": "Active"},
+  "marvin-harrison-jr": {"first": "Marvin", "last": "Harrison Jr.", "pos": "WR", "team": "ARI", "status": "Active"},
+  "khalil-shakir": {"first": "Khalil", "last": "Shakir", "pos": "WR", "team": "BUF", "status": "Active"},
+  "brock-bowers": {"first": "Brock", "last": "Bowers", "pos": "TE", "team": "LV", "status": "Active"},
+  "trey-mcbride": {"first": "Trey", "last": "McBride", "pos": "TE", "team": "ARI", "status": "Active"},
+  "george-kittle": {"first": "George", "last": "Kittle", "pos": "TE", "team": "SF", "status": "Active"},
+  "sam-laporta": {"first": "Sam", "last": "LaPorta", "pos": "TE", "team": "DET", "status": "Active"},
+  "travis-kelce": {"first": "Travis", "last": "Kelce", "pos": "TE", "team": "KC", "status": "Active"},
+  "tucker-kraft": {"first": "Tucker", "last": "Kraft", "pos": "TE", "team": "GB", "status": "Active"},
+  "dalton-kincaid": {"first": "Dalton", "last": "Kincaid", "pos": "TE", "team": "BUF", "status": "Active"},
+  "mark-andrews": {"first": "Mark", "last": "Andrews", "pos": "TE", "team": "BAL", "status": "Active"},
+  "brandon-aubrey": {"first": "Brandon", "last": "Aubrey", "pos": "K", "team": "DAL", "status": "Active"},
+  "cameron-dicker": {"first": "Cameron", "last": "Dicker", "pos": "K", "team": "LAC", "status": "Active"},
+  "jake-bates": {"first": "Jake", "last": "Bates", "pos": "K", "team": "DET", "status": "Active"},
+  "kaimi-fairbairn": {"first": "Ka'imi", "last": "Fairbairn", "pos": "K", "team": "HOU", "status": "Active"},
+  "tyler-bass": {"first": "Tyler", "last": "Bass", "pos": "K", "team": "BUF", "status": "Active"},
+  "chris-boswell": {"first": "Chris", "last": "Boswell", "pos": "K", "team": "PIT", "status": "Active"},
+  "dst-den": {"first": "Denver", "last": "Broncos", "short": "Broncos D/ST", "pos": "DST", "team": "DEN", "status": "Active"},
+  "dst-pit": {"first": "Pittsburgh", "last": "Steelers", "short": "Steelers D/ST", "pos": "DST", "team": "PIT", "status": "Active"},
+  "dst-bal": {"first": "Baltimore", "last": "Ravens", "short": "Ravens D/ST", "pos": "DST", "team": "BAL", "status": "Active"},
+  "dst-phi": {"first": "Philadelphia", "last": "Eagles", "short": "Eagles D/ST", "pos": "DST", "team": "PHI", "status": "Active"},
+  "dst-hou": {"first": "Houston", "last": "Texans", "short": "Texans D/ST", "pos": "DST", "team": "HOU", "status": "Active"},
+  "dst-min": {"first": "Minnesota", "last": "Vikings", "short": "Vikings D/ST", "pos": "DST", "team": "MIN", "status": "Active"},
+  "pat-freiermuth": {"first": "Pat", "last": "Freiermuth", "pos": "TE", "team": "PIT", "status": "Active"},
+  "harold-fannin-jr": {"first": "Harold", "last": "Fannin Jr.", "pos": "TE", "team": "CLE", "status": "Active"},
+  "terrance-ferguson": {"first": "Terrance", "last": "Ferguson", "pos": "TE", "team": "LAR", "status": "Active"},
+  "dallas-goedert": {"first": "Dallas", "last": "Goedert", "pos": "TE", "team": "PHI", "status": "Active"},
+  "evan-engram": {"first": "Evan", "last": "Engram", "pos": "TE", "team": "DEN", "status": "Active"}
+}
