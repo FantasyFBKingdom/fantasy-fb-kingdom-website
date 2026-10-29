@@ -8,6 +8,13 @@
   try {
     const { site } = await FFK.loadCore();
     FFK.renderShell(site);
+    // Page is switched off in site.json ("showStartSit": false): show a placeholder instead of the calls.
+    if (site.showStartSit === false) {
+      main.innerHTML = `
+        <section class="hero"><div class="hero-text"><h1 class="display">Start / Sit</h1></div></section>
+        <div class="empty-box">Start / sit calls are coming soon. Check out the <a href="weekly.html">weekly rankings</a> in the meantime.</div>`;
+      return;
+    }
     data = await FFK.loadJSON(FFK.paths.startSit(site));
     games = data.games || [];
     readState();

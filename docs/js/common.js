@@ -274,7 +274,7 @@
       { id: 'ros', href: 'index.html', label: 'ROS Rankings' },
       { id: 'weekly', href: 'weekly.html', label: 'Weekly' },
       { id: 'startsit', href: 'start-sit.html', label: 'Start / Sit' }
-    ];
+    ].filter(n => n.id !== 'startsit' || site.showStartSit !== false); // "showStartSit": false in site.json hides the tab
     const banner = site.banner || `Week ${site.currentWeek} rankings are live`;
     const yt = esc(site.youtubeUrl || '#');
 
