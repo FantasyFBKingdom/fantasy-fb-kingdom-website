@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found · Fantasy Football Kingdom</title>
+  <!-- GitHub Pages can show this page at any URL depth, so point links at the site root
+       (/fantasy-fb-kingdom-website/ on github.io, / on a custom domain). -->
+  <script>
+    var root = /\.github\.io$/.test(location.hostname) ? '/' + location.pathname.split('/')[1] + '/' : '/';
+    document.write('<base href="' + root + '">');
+    try { var t = localStorage.getItem('ffk-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+  <link rel="icon" href="assets/youtube_pfp.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700;800;900&family=Saira+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="404">
+  <main class="container not-found">
+    <a class="brand" href="index.html" aria-label="Fantasy Football Kingdom home">
+      <img class="brand-logo" src="assets/youtube_pfp.png" alt="" width="64" height="64">
+      <span class="brand-text">
+        <span class="brand-kicker">Fantasy Football</span>
+        <span class="brand-name">Kingdom</span>
+      </span>
+    </a>
+    <p class="eyebrow">404</p>
+    <h1 class="display">Page not found</h1>
+    <p class="page-meta">This page doesn't exist or has moved. Try the latest rankings instead.</p>
+    <nav class="main-nav" aria-label="Main">
+      <a class="nav-btn is-active" href="index.html">ROS Rankings</a>
+      <a class="nav-btn" href="weekly.html">Weekly</a>
+    </nav>
+  </main>
+</body>
+</html>

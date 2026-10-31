@@ -18,6 +18,7 @@ Nothing gets published until steps 3 and 4 (stat and injury checks) pass.
 
 ## 2. Bring in the new exports
 - Replace `2026/ros/rankings.json`, `2026/week-NN/rankings.json` and `players.json` with the latest exports.
+- Trim the new files (removes data the site never reads, cuts load time): from the repo root run `python tools/trim-export.py`.
 - In each rankings file, confirm `week` is the current week and `updated` is today's date.
 - Every player ID in the rankings and start/sit files must exist in `players.json`.
 
