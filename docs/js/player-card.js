@@ -65,7 +65,7 @@
     return dialog;
   }
 
-  // ctx: { entry, page, shareUrl (shows a "Copy link" button), onClose }
+  // ctx: { entry, page, onClose }
   async function openPlayer(id, ctx) {
     ctx = ctx || {};
     const p = FFK.player(id);
@@ -75,17 +75,9 @@
     const d = ensureDialog();
     d.innerHTML = card(p, info, ros);
     d.querySelector('.pc-close').addEventListener('click', () => d.close());
-    const share = d.querySelector('.pc-share');
-    if (share) share.addEventListener('click', () => copyLink(share, ctx.shareUrl));
     onClose = ctx.onClose || null;
     if (!d.open) d.showModal();
     d.querySelector('.pc-close').focus();
-  }
-
-  function copyLink(btn, url) {
-    const done = () => { btn.textContent = 'Link copied'; setTimeout(() => { btn.textContent = 'Copy link'; }, 2000); };
-    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => window.prompt('Copy this link:', url));
-    else window.prompt('Copy this link:', url);
   }
 
   // Merges the page's ranking entry with the ROS entry (page values win when present).
@@ -106,8 +98,7 @@
       flags: pick('flags') || [],
       consensus: pick('consensus'),
       myRank: rosEntry.rank ? `${rosEntry.pos}${rosEntry.rank}` : null,
-      rosSched: rosEntry.matchRank ?? null,
-      shareUrl: ctx.shareUrl || null
+      rosSched: rosEntry.matchRank ?? null
     };
   }
 
@@ -143,7 +134,6 @@
               ${info.tier ? `<span class="chip" style="background:${esc(info.tierColor)}">Tier ${esc(info.tier)}</span>` : ''}
               ${info.rankLabel ? `<span class="chip chip-outline">${esc(info.rankLabel)}</span>` : ''}
               ${statusChip(p)}
-              ${info.shareUrl ? '<button type="button" class="chip chip-outline pc-share">Copy link</button>' : ''}
               <button type="button" class="pc-close" aria-label="Close player card">✕</button>
             </div>
             <div class="pc-head-boxes">

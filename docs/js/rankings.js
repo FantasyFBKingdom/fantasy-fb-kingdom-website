@@ -97,7 +97,6 @@
     FFK.openPlayer(id, {
       entry: entriesById[id] || lookup[id],
       page: mode,
-      shareUrl: location.href,
       onClose: () => { state.player = null; FFK.writeHash(hashValue()); }
     });
   }
