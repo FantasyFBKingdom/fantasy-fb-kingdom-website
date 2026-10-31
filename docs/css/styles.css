@@ -320,8 +320,7 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 3px;
   font-family: var(--font-display); font-weight: 900; font-size: 22px; color: #fff; vertical-align: middle;
 }
-.tier-name { font-family: var(--font-display); font-weight: 900; font-size: 24px; text-transform: uppercase; margin: 0 10px 0 12px; color: var(--text-strong); vertical-align: middle; }
-.tier-count { color: var(--muted); font-weight: 600; vertical-align: middle; }
+.tier-count { color: var(--muted); font-weight: 600; vertical-align: middle; margin-left: 12px; }
 .player-cell { display: flex; align-items: center; gap: 18px; }
 .player-name { display: block; font-weight: 800; font-size: 20px; color: var(--text-strong); line-height: 1.15; }
 .player-sub { display: block; font-weight: 700; color: var(--muted); font-size: 16px; }

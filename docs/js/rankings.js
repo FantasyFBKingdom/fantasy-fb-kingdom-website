@@ -291,7 +291,6 @@
       <tbody>${tiers.map(t => `
         <tr class="tier-head"><td colspan="${span}">
           <span class="tier-pill" style="background:${esc(t.color)}">${esc(t.tier)}</span>
-          <span class="tier-name">${esc(t.name)}</span>
           <span class="tier-count">${t.entries.length} player${t.entries.length === 1 ? '' : 's'}</span>
         </td></tr>
         ${t.entries.map(listRow).join('')}`).join('')}
