@@ -40,7 +40,8 @@
   // Where each page's data lives (season and week come from data/site.json).
   const paths = {
     ros: s => `data/${s.season}/ros/rankings.json`,
-    weekly: s => `data/${s.season}/week-${pad2(s.currentWeek)}/rankings.json`,
+    rosHistory: (s, week) => `data/${s.season}/ros-history/week-${pad2(week)}.json`,
+    weekly: (s, week) => `data/${s.season}/week-${pad2(week || s.currentWeek)}/rankings.json`,
     startSit: s => `data/${s.season}/start-sit-week-${pad2(s.currentWeek)}/start-sit.json`
   };
 
@@ -215,6 +216,27 @@
     return (t && t.color) || (CONFIG.tiers[letter] || {}).color || '#8a8a96';
   }
 
+  // Position rank of every player in a rankings file: { QB: { 'josh-allen': 1, ... }, ... }.
+  // Lighter than normalizeRankings (no player lookups), so older files with retired IDs don't warn.
+  function rankMap(data) {
+    const out = {};
+    Object.entries(data.positions || {}).forEach(([pos, block]) => {
+      let n = 0;
+      out[pos] = {};
+      (block.tiers || []).forEach(t => (t.ids || (t.players || []).map(e => e.id)).forEach(id => {
+        n += 1;
+        if (out[pos][id] == null) out[pos][id] = n;
+      }));
+    });
+    return out;
+  }
+
+  // Latest week in `list` before `week` (e.g. previous published week), or null.
+  function weekBefore(list, week) {
+    const earlier = (list || []).filter(w => w < week);
+    return earlier.length ? Math.max(...earlier) : null;
+  }
+
   function matchupLabel(e) {
     return e && e.opp ? `${e.home ? 'vs' : '@'} ${e.opp}` : null;
   }
@@ -359,7 +381,7 @@
   }
 
   window.FFK = {
-    CONFIG, paths, metaLine, sourcesLine, normalizeRankings, tierName, tierColor, matchupLabel, rosContext, loadJSON, loadCore, pad2, esc, ordinal, num1, fppgClass, rankClass,
+    CONFIG, paths, metaLine, sourcesLine, normalizeRankings, rankMap, weekBefore, tierName, tierColor, matchupLabel, rosContext, loadJSON, loadCore, pad2, esc, ordinal, num1, fppgClass, rankClass,
     player, team, fullName, shortName, initials, textOn, teamVars, photo, teamChip,
     avatar, silhouette, readHash, writeHash, renderShell, sampleBadge, showError
   };

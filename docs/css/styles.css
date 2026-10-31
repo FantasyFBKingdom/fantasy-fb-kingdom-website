@@ -158,6 +158,52 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   font-size: 12px; letter-spacing: .12em;
 }
 .hero-controls { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; max-width: 100%; }
+.past-badge {
+  display: inline-block; background: var(--surface-3); color: var(--text-strong); border-radius: 3px; padding: 2px 8px;
+  font-size: 12px; letter-spacing: .12em;
+}
+
+/* Week picker (Weekly page) */
+.week-picker { display: inline-flex; align-items: center; gap: 10px; margin-top: 16px; font-weight: 700; color: var(--muted); }
+.week-picker select {
+  min-height: 44px; padding: 0 12px; border: 2px solid var(--gold); border-radius: 4px; background: var(--surface);
+  color: var(--text-strong); font: 800 17px var(--font-display); letter-spacing: .06em; text-transform: uppercase; cursor: pointer;
+}
+
+/* Player search */
+.search { position: relative; }
+.search-box {
+  display: flex; align-items: center; gap: 10px; min-height: 66px; padding: 0 16px; width: 280px; max-width: 100%;
+  border: 1px solid var(--border); border-radius: 4px; background: var(--surface); color: var(--muted);
+}
+.search-box:focus-within { border-color: var(--gold); }
+.search-box input {
+  flex: 1; min-width: 0; border: 0; background: transparent; outline: none; color: var(--text-strong);
+  font: 700 18px var(--font-body);
+}
+.search-results {
+  position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; width: 340px; max-width: calc(100vw - 32px);
+  margin: 0; padding: 6px; list-style: none; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: 0 12px 32px rgba(0, 0, 0, .3);
+}
+.sr-item { display: flex; align-items: center; gap: 12px; padding: 8px 10px; border-radius: 6px; cursor: pointer; }
+.sr-item .avatar { width: 36px; height: 36px; font-size: 11px; }
+.sr-item.is-active, .sr-item:hover { background: var(--surface-2); }
+.sr-name { flex: 1; font-weight: 800; color: var(--text-strong); }
+.sr-meta { color: var(--muted); font-weight: 700; font-size: 14px; white-space: nowrap; }
+.sr-empty { padding: 10px; color: var(--muted); font-weight: 600; }
+.is-found { outline: 3px solid var(--gold); outline-offset: -3px; }
+
+/* Rank change vs previous week */
+.move { display: inline-block; font: 900 13px/1 var(--font-body); letter-spacing: 0; white-space: nowrap; }
+.move-up { color: var(--good); }
+.move-down { color: var(--bad); }
+.move-same { color: var(--muted); }
+.move-new { color: var(--blue); text-transform: uppercase; }
+.tcard-rank .move { margin-left: 6px; vertical-align: 3px; }
+.legend .move { font-size: 15px; }
+.rank-table .move-col .move { font-size: 17px; }
+.rank-move { display: none; }
 
 .pos-tabs { display: flex; gap: 8px; overflow-x: auto; max-width: 100%; scrollbar-width: none; }
 .pos-tabs::-webkit-scrollbar { display: none; }
@@ -591,6 +637,10 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   .eyebrow { font-size: 14px; }
   .pos-tab { min-height: 48px; min-width: 48px; padding: 0 12px; font-size: 20px; }
   .view-toggle button { min-height: 48px; padding: 0 14px; font-size: 16px; }
+  .search { flex: 1 1 200px; }
+  .search-box { min-height: 48px; width: 100%; }
+  .search-box input { font-size: 16px; }
+  .rank-table .move-col .move { font-size: 13px; }
   .legend { font-size: 14px; gap: 8px 20px; }
   .tier-row { grid-template-columns: 52px 1fr; gap: 8px; }
   .tier-label { font-size: 36px; min-height: 140px; }
@@ -650,4 +700,17 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   .call { font-size: 18px; }
   .ppg-box { font-size: 18px; }
   .ss-src { font-size: 10px; }
+}
+/* Phones: show the rank change under the rank number instead of in its own column */
+@media (max-width: 600px) {
+  .rank-table .move-col { display: none; }
+  .rank-move { display: block; margin-top: 2px; }
+}
+/* Small phones: tighter list table so every column fits */
+@media (max-width: 440px) {
+  .rank-table th, .rank-table td { padding-left: 6px; padding-right: 6px; }
+  .rank-table .rank-col { width: 30px; }
+  .rank-table .num { font-size: 17px; }
+  .player-cell { gap: 8px; }
+  .player-cell .avatar { width: 34px; height: 34px; }
 }

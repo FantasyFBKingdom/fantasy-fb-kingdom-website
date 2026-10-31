@@ -14,7 +14,10 @@ Nothing gets published until steps 3 and 4 (stat and injury checks) pass.
 - If the week changed, create the new folders (always two digits):
   - `2026/week-NN/rankings.json` (weekly rankings export)
   - `2026/start-sit-week-NN/start-sit.json`
-  - Old weeks can stay. The site only loads the current week.
+  - Old weeks stay. Add the new week number to `weeks` in `site.json` (e.g. `[5, 8, 9]`) so it shows in the Weekly page's week picker and the ▲/▼ rank changes compare against the previous week in that list.
+- Before replacing the ROS file, save the old one as a snapshot for ROS rank changes:
+  - Copy `2026/ros/rankings.json` to `2026/ros-history/week-NN.json`, where NN is the `week` inside that old file.
+  - Add that week number to `rosHistory` in `site.json` (e.g. `[5, 8]`).
 
 ## 2. Bring in the new exports
 - Replace `2026/ros/rankings.json`, `2026/week-NN/rankings.json` and `players.json` with the latest exports.

@@ -32,7 +32,8 @@ I create content about fantasy football updates. My audience is people who want 
 - resources/ - Reference docs and templates
 
 # Data (all under docs/data/)
-- site.json - season, currentWeek, scoring, YouTube link. currentWeek controls which week loads.
+- site.json - season, currentWeek, scoring, YouTube link. currentWeek controls which week loads by default; "weeks" lists published weekly folders (week picker, ?week=N) and "rosHistory" lists saved ROS snapshots in data/<season>/ros-history/week-<NN>.json (used for ▲/▼ rank changes).
+- Run `python tools/trim-export.py` after bringing in new exports (strips data the site never reads).
 - players.json - every player keyed by id (e.g. jalen-hurts). teams.json - team names and colors.
 - Weekly rankings live in data/<season>/week-<NN>/rankings.json.
 - Rest of season rankings live in data/<season>/ros/rankings.json.
