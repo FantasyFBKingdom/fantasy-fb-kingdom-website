@@ -71,7 +71,7 @@
       </section>
       <div class="legend" id="legend"></div>
       <div id="board"></div>
-      <p class="hint">Tap any player for their full card.</p>
+      <p class="hint">Tap any player for their full card and notes.</p>
       <div id="sources"></div>`;
 
     main.querySelector('.pos-tabs').innerHTML = available
@@ -212,7 +212,8 @@
       <td class="rank-col">${r.rank}</td>
       <td><span class="player-cell">${FFK.avatar(r.p)}
         <span><span class="player-name">${esc(FFK.fullName(r.p))}${flagMark(r)}</span>
-        <span class="player-sub">${esc(r.p.team)}${state.pos === 'FLEX' ? ' · ' + esc(r.p.pos) : ''} ${esc(r.sub)}</span></span>
+        <span class="player-sub">${esc(r.p.team)}${state.pos === 'FLEX' ? ' · ' + esc(r.p.pos) : ''} ${esc(r.sub)}</span>
+        ${r.flags.length ? `<span class="player-note">${esc(r.flags[0])}</span>` : ''}</span>
       </span></td>
       <td class="num ${rankClass(r.matchRank)}">${ordinal(r.matchRank)}</td>
       ${extra}

@@ -279,6 +279,11 @@ body[data-page="startsit"] .container { max-width: 1800px; }
 .player-cell { display: flex; align-items: center; gap: 18px; }
 .player-name { display: block; font-weight: 800; font-size: 20px; color: var(--text-strong); line-height: 1.15; }
 .player-sub { display: block; font-weight: 700; color: var(--muted); font-size: 16px; }
+.player-cell > span:last-child { min-width: 0; }
+.player-note {
+  display: block; max-width: 520px; margin-top: 2px; font-size: 14px; font-weight: 600; color: var(--gold-text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 
 .avatar {
   position: relative; flex: none; width: 52px; height: 52px; border-radius: 50%; overflow: hidden;
@@ -604,6 +609,7 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   .avatar { width: 40px; height: 40px; font-size: 12px; }
   .player-name { font-size: 16px; }
   .player-sub { font-size: 13px; }
+  .player-note { font-size: 12px; max-width: calc(100vw - 230px); }
   .footer-name { font-size: 20px; }
 
   .pc-dialog { width: calc(100vw - 16px); max-height: calc(100vh - 16px); }

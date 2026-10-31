@@ -338,7 +338,14 @@
       const checked = s.checked ? ` (checked ${esc(s.checked)})` : '';
       return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>${checked}` : `${esc(s.label)}${checked}`;
     });
-    return `<p class="sources"><b>Sources:</b> ${items.length ? items.join(' · ') : 'none listed yet'}</p>`;
+    const pulled = file && file.exported ? ` · Data pulled ${esc(shortDate(file.exported))}` : '';
+    return `<p class="sources"><b>Sources:</b> ${items.length ? items.join(' · ') : 'none listed yet'}${pulled}</p>`;
+  }
+
+  // "2026-10-29T22:22:41Z" -> "Oct 29, 2026"
+  function shortDate(iso) {
+    const d = new Date(iso);
+    return isNaN(d) ? iso : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   }
 
   function showError(err) {
