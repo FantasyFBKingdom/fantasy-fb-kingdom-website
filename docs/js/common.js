@@ -281,6 +281,9 @@
   const ICON_SUN = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
   const ICON_MOON = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
 
+  const ICON_DISCORD = '<img class="social-icon" src="assets/discord_icon.svg" alt="" width="22" height="17">';
+  const ICON_YOUTUBE = '<img class="social-icon" src="assets/youtube_icon.webp" alt="" width="22" height="16">';
+
   function updateThemeButton() {
     const btn = document.getElementById('theme-toggle');
     if (!btn) return;
@@ -306,8 +309,8 @@
         <div class="container banner-inner">
           <span class="banner-message">${esc(banner)}</span>
           <span class="banner-links">
-            ${discord ? `<a href="${discord}" target="_blank" rel="noopener">Join the Discord <span aria-hidden="true">→</span></a>` : ''}
-            <a href="${yt}" target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">→</span></a>
+            ${discord ? `<a class="social-link" href="${discord}" target="_blank" rel="noopener">${ICON_DISCORD}Join the Discord <span aria-hidden="true">→</span></a>` : ''}
+            <a class="social-link" href="${yt}" target="_blank" rel="noopener">${ICON_YOUTUBE}Watch on YouTube <span aria-hidden="true">→</span></a>
           </span>
         </div>
       </div>
@@ -333,8 +336,8 @@
           <div class="footer-brand">
             <img src="${esc(site.logo || 'assets/youtube_pfp.png')}" alt="" width="40" height="40">
             <span class="footer-name">Fantasy Football Kingdom</span>
-            <a href="${yt}" target="_blank" rel="noopener">${esc(site.handle || '@FantasyFBKingdom')}</a>
-            ${discord ? `<a href="${discord}" target="_blank" rel="noopener">Discord</a>` : ''}
+            <a class="social-link" href="${yt}" target="_blank" rel="noopener">${ICON_YOUTUBE}${esc(site.handle || '@FantasyFBKingdom')}</a>
+            ${discord ? `<a class="social-link" href="${discord}" target="_blank" rel="noopener">${ICON_DISCORD}Discord</a>` : ''}
           </div>
           <p class="footer-note">Rankings are opinion for entertainment. Not affiliated with the NFL.</p>
         </div>
