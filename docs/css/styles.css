@@ -119,6 +119,7 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   text-transform: uppercase; letter-spacing: .14em; font-size: 15px;
 }
 .banner a { text-decoration: none; white-space: nowrap; }
+.banner-links { display: flex; gap: 28px; }
 .banner a:hover { text-decoration: underline; }
 
 .site-header { border-bottom: 1px solid var(--border); background: var(--bg); }
@@ -712,4 +713,9 @@ body[data-page="startsit"] .container { max-width: 1800px; }
   .rank-table .num { font-size: 17px; }
   .player-cell { gap: 8px; }
   .player-cell .avatar { width: 34px; height: 34px; }
+}
+/* Phones: banner shows just the Discord + YouTube links (the week is in each page's heading) */
+@media (max-width: 600px) {
+  .banner-message { display: none; }
+  .banner-links { flex: 1; justify-content: space-between; }
 }

@@ -299,12 +299,16 @@
     ].filter(n => n.id !== 'startsit' || site.showStartSit !== false); // "showStartSit": false in site.json hides the tab
     const banner = site.banner || `Week ${site.currentWeek} rankings are live`;
     const yt = esc(site.youtubeUrl || '#');
+    const discord = site.discordUrl ? esc(site.discordUrl) : '';
 
     document.getElementById('site-header').innerHTML = `
       <div class="banner">
         <div class="container banner-inner">
-          <span>${esc(banner)}</span>
-          <a href="${yt}" target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">→</span></a>
+          <span class="banner-message">${esc(banner)}</span>
+          <span class="banner-links">
+            ${discord ? `<a href="${discord}" target="_blank" rel="noopener">Join the Discord <span aria-hidden="true">→</span></a>` : ''}
+            <a href="${yt}" target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">→</span></a>
+          </span>
         </div>
       </div>
       <header class="site-header">
@@ -330,6 +334,7 @@
             <img src="${esc(site.logo || 'assets/youtube_pfp.png')}" alt="" width="40" height="40">
             <span class="footer-name">Fantasy Football Kingdom</span>
             <a href="${yt}" target="_blank" rel="noopener">${esc(site.handle || '@FantasyFBKingdom')}</a>
+            ${discord ? `<a href="${discord}" target="_blank" rel="noopener">Discord</a>` : ''}
           </div>
           <p class="footer-note">Rankings are opinion for entertainment. Not affiliated with the NFL.</p>
         </div>
